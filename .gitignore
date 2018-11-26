@@ -1,0 +1,6 @@
+bin
+inc
+*.obj
+lib
+/demo/.sconsign.dblite
+/demo/scripts/*.pyc

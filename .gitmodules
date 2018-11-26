@@ -1,0 +1,3 @@
+[submodule "awtk"]
+	path = awtk
+	url = git@gitlab.zhaoqi.info:awtk/awtk.git
