@@ -1,0 +1,40 @@
+<window anim_hint="htranslate" style="sky">
+
+  <label name="l_timeset" x="174" y="138" w="32.5%" h="5.8%" text="TIME SET"/>
+  <label name="l_yearmenu" x="30" y="248" w="14%" h="3.5%" text="YEAR"/>
+  <label name="l_month" x="141" y="248" w="12.7%" h="3.5%" text="MON"/>
+  <label name="l_day" x="231" y="248" w="10.6%" h="3.5%" text="DAY"/>
+  <label name="l_hour" x="307" y="248" w="16%" h="3.5%" text="HOUR"/>
+  <label name="l_minute" x="402" y="248" w="10.2%" h="3.5%" text="MIN"/>
+
+  <label name="l_prevyear" x="33" y="312" w="11.5%" h="3.8%" text="2017"/>
+  <label name="l_prevmonth" x="141" y="312" w="11.5%" h="3%" text="5"/>
+  <label name="l_prevday" x="231`" y="312" w="11.5%" h="3%" text="7"/>
+  <label name="l_prevhour" x="307" y="312" w="11.5%" h="3%" text="13"/>
+  <label name="l_prevminute" x="402" y="312" w="11.5%" h="3%" text="05"/>
+
+  <image name="up_line" image="aircon_line" x="23" y="355" w="90%" h="0.1%"/>
+
+  <label name="l_curyear" x="33" y="383" w="11.5%" h="3.8%" text="2018"/>
+  <label name="l_curmonth" x="141" y="383" w="11.5%" h="3%" text="6"/>
+  <label name="l_curvday" x="231" y="383" w="11.5%" h="3%" text="8"/>
+  <label name="l_curhour" x="307" y="383" w="11.5%" h="3%" text="14"/>
+  <label name="l_curminute" x="402" y="383" w="11.5%" h="3%" text="06"/>
+
+  <image name="down_line" image="aircon_line" x="23" y="420" w="90" h="0.1%"/>
+
+  <label name="l_nextyear" x="33" y="444" w="11.5%" h="3.8%" text="2019"/>
+  <label name="l_nextmonth" x="141" y="444" w="11.5%" h="3%" text="7"/>
+  <label name="l_nextday" x="231" y="444" w="11.5%" h="3%" text="8"/>
+  <label name="l_nexthour" x="307" y="444" w="11.5%" h="3%" text="15"/>
+  <label name="l_nextminute" x="402" y="444" w="11.5%" h="3%" text="07"/>
+
+  <button name="set_ok" style="grid_item" x="0" y="730" w="50%" h="11%">
+  	 <image name="i_ok" image="set_time" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_cancel" style="grid_item" x="240" y="730" w="50%" h="11%">
+  	 <image name="i_cancel" image="cancel_set" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+</window>

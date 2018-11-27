@@ -1,0 +1,70 @@
+<window anim_hint="htranslate" style="sky">
+  <label name="dis_ifname" x="0" y="2" w="22.5%" h="5.7%" text="MULFUNC"/>
+  <label name="dis_date" x="170" y="2" w="19.79%" h="5.7%" text="6-24"/>
+  <label name="dis_time" x="242" y="2" w="16.67%" h="5.7%" text="17:35"/>
+  <label name="dis_temp" x="330" y="2" w="7.5%" h="5.7%" text="25"/>
+  <image name="i_tempunit" image="g_ctemp" x="360" y="7" w="4.0%" h="2.8%"/>
+  <image name="dis_networkstatus" image="e_g_netswitch_off" x="395" y="10" w="4.0%" h="5.7%"/>
+  <button name="b_return" style="grid_item" x="425" y="0" w="8.2%" h="5.7%">
+    <image name="i_return" image="e_g_return" x="c" y="2" w="100%" h="100%"/>
+  </button>
+
+  <slide_view style="dot" name="slide" x="0" y="0" w="90%" h="90%">
+  <view name="view_one" x="0" y="0" w="100%" h="100%" layout="w480 h800 m5 s10">
+  
+  <check_button name="b_oneIcon1" style="oneIcon1" x="62" y="132" w="16.6%" h="10%"/> 
+  <label name="l_oneIcon1" x="58" y="238" w="15.00%" h="4.25%" style="default" text="Icon1"/>
+
+  <check_button name="b_oneIcon2" style="oneIcon2" x="208" y="132" w="16.6%" h="10%"/>
+  <label name="l_oneIcon2" x="210" y="238" w="15.00%" h="4.25%" text="Icon2"/>
+
+  <check_button name="b_oneIcon3" style="oneIcon3" x="354" y="132" w="16.6%" h="10%"/>
+  <label name="l_oneIcon3" x="355" y="238" w="15.00%" h="4.25%" text="Icon3"/>
+  
+  <check_button name="b_oneIcon4" style="oneIcon4" x="62" y="340" w="16.6%" h="10%"/>
+  <label name="l_oneIcon4" x="58" y="440" w="15.00%" h="4.25%" text="Icon4"/>
+  
+  <check_button name="b_oneIcon5" style="oneIcon5" x="208" y="340" w="16.6%" h="10%"/>
+  <label name="l_oneIcon5" x="210" y="440" w="15.00%" h="4.25%" text="Icon5"/>
+  
+  <check_button name="b_oneIcon6" style="oneIcon6" x="354" y="340" w="16.6%" h="10%"/>
+  <label name="l_oneIcon6" x="355" y="440" w="15.00%" h="4.25%" text="Icon6"/>
+  
+  <check_button name="b_oneICon7" style="oneIcon7" x="62" y="525" w="16.6%" h="10%"/>
+  <label name="l_oneIcon7" x="58" y="631" w="15.00%" h="4.25%" text="Icon7"/>
+  
+  <check_button name="b_oneIcon8" style="oneIcon8" x="208" y="525" w="16.6%" h="10%"/>
+  <label name="l_oneIcon8" x="210" y="631" w="15.00%" h="4.25%" text="Icon8"/>
+
+  <label name="l_oneIcon9" x="355" y="631" w="15.00%" h="4.25%" text="Icon9"/>
+  </view>
+  
+  <view name="view_two" x="0" y="0" w="100%" h="100%" layout="w480 h800 m5 s10">
+  <check_button name="b_threeIcon1" style="threeIcon1" x="62" y="132" w="16.6%" h="10%"/>
+  <label name="l_threeIcon1" x="58" y="238" w="15.00%" h="4.25%" style="default"  text="Icon1"/>
+
+  <check_button name="b_threeIcon2" style="threeIcon2" x="208" y="132" w="16.6%" h="10%"/>
+  <label name="l_threeIcon2" x="210" y="238" w="15.00%" h="4.25%" text="Icon2"/>
+
+  <check_button name="b_threeIcon3" style="threeIcon3" x="354" y="132" w="16.6%" h="10%"/>
+  <label name="l_threeIcon3" x="355" y="238" w="15.00%" h="4.25%" text="Icon3"/>
+  
+  <check_button name="b_threeIcon4" style="threeIcon4" x="62" y="340" w="16.6%" h="10%"/>
+  <label name="l_threeIcon4" x="58" y="440" w="15.00%" h="4.25%" text="Icon4"/>
+  
+  <check_button name="b_threeIcon5" style="threeIcon5" x="208" y="340" w="16.6%" h="10%"/>
+  <label name="l_threeIcon5" x="210" y="440" w="15.00%" h="4.25%" text="Icon5"/>
+  
+  <check_button name="b_threeIcon6" style="threeIcon6" x="354" y="340" w="16.6%" h="10%"/>
+  <label name="l_threeIcon6" x="355" y="440" w="15.00%" h="4.25%" text="Icon6"/>
+  
+  <check_button name="b_threeIcon7" style="threeIcon7" x="62" y="525" w="16.6%" h="10%"/>
+  <label name="l_threeIcon7" x="58" y="631" w="15.00%" h="4.25%" text="Icon7"/>
+  
+  <check_button name="b_threeIcon8" style="threeIcon8" x="208" y="525" w="16.6%" h="10%"/>
+  <label name="l_threeIcon8" x="210" y="631" w="15.00%" h="4.25%" text="Icon8"/>
+
+  <label name="l_threeIcon9" x="355" y="631" w="15.00%" h="4.25%" text="Icon9"/>
+  </view>
+  </slide_view>
+</window>
