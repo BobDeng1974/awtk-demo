@@ -1,0 +1,7 @@
+<window anim_hint="htranslate" style="sky">
+	<image name="clockgraduation" image="clockgraduation" x="0" y="0" w="100%" h="100%"/>
+	<image name="maincircus" image="maincircus" x="220" y="343" w="10.42%" h="6.25%"/>
+	<image name="i_hourhand" image="hourhand" x="254" y="350" w="5.21%" h="12.88%"/>
+	<image name="i_minutehand" image="minutehand" x="229" y="346" w="2.92%" h="19.75%"/>
+	<image name="i_secondhand" image="secondhand" x="262" y="352" w="2%" h="30.00%"/>
+</window>

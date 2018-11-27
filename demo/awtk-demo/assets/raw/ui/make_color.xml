@@ -1,0 +1,47 @@
+<window anim_hint="htranslate" style="sky">
+  <label name="dis_ifname" x="0" y="2" w="22.5%" h="5.7%" text="RGB"/>
+  <label name="dis_date" x="170" y="2" w="19.79%" h="5.7%" text="6-24"/>
+  <label name="dis_time" x="242" y="2" w="16.67%" h="5.7%" text="17:35"/>
+  <label name="dis_temp" x="330" y="2" w="7.5%" h="5.7%" text="25"/>
+  <image name="i_tempunit" image="g_ctemp" x="360" y="7" w="4.0%" h="2.8%"/>
+  <image name="dis_networkstatus" image="e_g_netswitch_off" x="395" y="10" w="4.0%" h="5.7%"/>
+  <button name="b_return" style="grid_item" x="425" y="0" w="8.2%" h="5.7%">
+    <image name="i_return" image="e_g_return" x="c" y="2" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_greencolor" style="grid_item" x="40" y="82" w="15.00%" h="9.00%"> 
+  	 <image name="i_green" image="displaycolor" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_bluecolor" style="grid_item" x="152" y="82" w="15.,00%" h="9.00%"> 
+  	 <image name="i_blue" image="displaycolor" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_redcolor" style="grid_item" x="262" y="82" w="15.00%" h="9.00%"> 
+  	 <image name="i_red" image="displaycolor" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_powerrgb" style="grid_item" x="371"  y="82" w="15.00%" h="9.00%">
+	 <image name="i_powerset" image="color_powerset" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <image name="i_colorboard" image="colordashboard" x="25" y="191" w="85%" h="51%"/>
+  <image name="i_colorchoose" image="colorchoose" x="333" y="368" w="12%" h="7.00%"/>
+  
+  <label name="l_red_percent" x="396" y="605" w="12.50%" h="3.75%" text="56%"/> 
+  <image name="i_selectbar" image="color_selectbar" x="25" y="645" w="88.86%" h="6.75%"/>
+  <image name="i_selector" image="color_selector" x="328" y="642" w="12%" h="7%"/>
+
+  <image name="i_dot1" image="g_page_number_off" x="165" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot2" image="g_page_number_off" x="182" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot3" image="g_page_number_off" x="200" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot4" image="g_page_number_off" x="216" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot5" image="g_page_number_off" x="231" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot6" image="g_page_number_on" x="248" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot7" image="g_page_number_off" x="266" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot8" image="g_page_number_off" x="284" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot9" image="g_page_number_off" x="302" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot10" image="g_page_number_off" x="318" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot11" image="g_page_number_off" x="334" y="720" w="2.1%" h="1.3%"/>
+
+</window>

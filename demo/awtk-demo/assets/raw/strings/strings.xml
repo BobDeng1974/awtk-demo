@@ -6,4 +6,22 @@
 <string name="cancel">
 <language name="en_US">Cancel</language>
 <language name="zh_CN">取消</language>
+<language name="zh_TW">怎麽</language>
+<language name="ja_JP">どのように</language>
 </string>
+
+<string name="cancel">
+<language name="en_US">Cancel</language>
+<language name="zh_CN">取消</language>
+<language name="zh_TW">怎麽</language>
+<language name="ja_JP">どのように</language>
+</string>
+
+<string name="hello">
+<language name="en_US">Hello</language>
+<language name="zh_CN">你好</language>
+<language name="zh_TW">你好</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
+

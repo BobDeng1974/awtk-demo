@@ -1,0 +1,11 @@
+<window anim_hint="htranslate" style="sky">
+	<image name="background" image="newair_reset" x="0" y="0" w="100%" h="100%"/>
+	<button style="grid_item" name="b_ok" x="102" y="366" w="13%" h="8%">
+		<image name="i_ok" image="newair_resetok" x="c" y="0" w="100%" h="100%"/>
+	</button>
+
+	<button style="grid_item" name="b_cancel" x="315" y="366" w="13%" h="8%"> 
+		<image name="i_cancel" image="newair_resetcancel" x="c" y="0" w="100%" h="100%"/>
+	</button>
+
+</window>

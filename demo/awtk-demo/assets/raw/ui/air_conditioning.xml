@@ -1,0 +1,69 @@
+<window anim_hint="htranslate" style="sky">
+  <label name="dis_ifname" x="0" y="2" w="22.5%" h="5.7%" text="AIRCON"/>
+  <label name="dis_date" x="170" y="2" w="19.79%" h="5.7%" text="6-24"/>
+  <label name="dis_time" x="242" y="2" w="16.67%" h="5.7%" text="17:35"/>
+  <label name="dis_temp" x="330" y="2" w="7.5%" h="5.7%" text="25"/>
+  <image name="i_tempunit" image="g_ctemp" x="360" y="7" w="4.0%" h="2.8%"/>
+  <image name="dis_networkstatus" image="e_g_netswitch_off" x="395" y="10" w="4.0%" h="5.7%"/>
+  <button name="b_return" style="grid_item" x="425" y="0" w="8.2%" h="5.7%">
+    <image name="i_return" image="e_g_return" x="c" y="2" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_aircon_hair" style="grid_item" x="31" y="97" w="24.8%" h="7.5%"> 
+  	 <image name="i_aircon_hair" image="aircon_hair3" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <image name="dis_powerstatus" image="aircon_poweroff" x="379" y="90" w="13.3%" h="8%"/>
+
+  <button name="open_setting" style="grid_item" x="83" y="286" w="14.6%" h="10%">
+	 <image name="i_settting" image="aircon_set" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <image name="i_hunumber" image="realtime_temp_8" x="162" y="278" w="12.1%" h="10%"/>
+  <image name="i_tenumber" image="realtime_temp_8" x="219" y="278" w="12.1%" h="10%"/>
+  <image name="i_number" image="realtime_temp_8" x="280" y="278" w="12.1%" h="10%"/>
+  <image name="i_point" image="whitepoint" x="340" y="345" w="1%" h="1%"/>
+  <image name="i_pnumber" image="realtime_temp_8" x="346" y="278" w="12.1%" h="10%"/>
+  <image name="i_temp" image="hvac_ctemp" x="404" y="265" w="5%" h="3%"/>
+
+  <button name="set_downtemp" style="grid_item" x="38" y="483" w="13.3%" h="8%">
+   	 <image name="i_downtemp" image="aircon_downon" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_uptemp" style="grid_item" x="371" y="483" w="13.3%" h="8%">
+	 <image name="i_uptemp" image="aircon_upon" x="c" y="0" w="100%" h="100%"/>
+  </button>
+  
+  <image name="i_upline" image="aircon_line" x="27" y="580" w="90%" h="2%"/>
+
+  <button name="set_mirror" style="grid_item" x="45" y="609" w="11.7%" h="7%">
+	 <image name="i_mirror" image="aircon_mirroron" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_snowflake" style="grid_item" x="158" y="606" w="11.7%" h="7%">
+  	 <image name="i_snowflake" image="aircon_flakeon" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_humion" style="grid_item" x="269" y="609" w="11.7%" h="7%"> 
+  	 <image name="i_water" image="aircon_humion" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <button name="set_wind" style="grid_item" x="386" y="609" w="11.7%" h="7%"> 
+   	 <image name="i_wind" image="aircon_windon" x="c" y="0" w="100%" h="100%"/>
+  </button>
+
+  <image name="i_downline" image="aircon_line" x="24" y="686" w="90%" h="2%"/>
+
+  <image name="i_dot1" image="g_page_number_off" x="165" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot2" image="g_page_number_on" x="182" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot3" image="g_page_number_off" x="200" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot4" image="g_page_number_off" x="216" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot5" image="g_page_number_off" x="231" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot6" image="g_page_number_off" x="248" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot7" image="g_page_number_off" x="266" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot8" image="g_page_number_off" x="284" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot9" image="g_page_number_off" x="302" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot10" image="g_page_number_off" x="318" y="720" w="2.1%" h="1.3%"/>
+  <image name="i_dot11" image="g_page_number_off" x="334" y="720" w="2.1%" h="1.3%"/>
+
+</window>
