@@ -4,3 +4,4 @@ inc
 lib
 /demo/.sconsign.dblite
 /demo/scripts/*.pyc
+/.vscode

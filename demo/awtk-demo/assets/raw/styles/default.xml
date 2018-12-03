@@ -123,7 +123,7 @@
   </style>
 
   <style name="green">
-    <normal text_color="green" />
+    <normal text_color="green" font_size="30"/>
   </style>
 
   <style name="left">
@@ -131,7 +131,7 @@
   </style>
 
   <style name="center">
-    <normal text_color="green" text_align_h="center" border_color="#a0a0a0"/>
+    <normal text_color="green" font_size="30" text_align_h="center"/>
   </style>
   
   <style name="right">
@@ -139,7 +139,7 @@
   </style>
   
   <style name="center_dig">
-    <normal text_color="green" text_align_h="center" font_name="digifaw" font_size="60"/>
+    <normal text_color="#a0a0a0" text_align_h="center" font_name="digifaw" font_size="30"/>
   </style>
   
   <style name="big_green">
