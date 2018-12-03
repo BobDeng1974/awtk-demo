@@ -41,10 +41,8 @@
 
 extern ret_t demo_loading_init();
 
-ret_t application_init() {
-  tk_ext_widgets_init();
-
-  /* 初始化记载窗口 */
-  demo_loading_init();
+ret_t awtk_demo_index() 
+{
+  widget_t *index = window_open("index");
   return RET_OK;
 }

@@ -13,7 +13,9 @@
 #include "assets/inc/ui/air_quality.data"
 #include "assets/inc/ui/gvs_main.data"
 #include "assets/inc/ui/hvac.data"
+#include "assets/inc/ui/index.data"
 #include "assets/inc/ui/input_number.data"
+#include "assets/inc/ui/loading.data"
 #include "assets/inc/ui/make_color.data"
 #include "assets/inc/ui/mulfuncchildwin.data"
 #include "assets/inc/ui/mulfuncfour.data"
@@ -28,7 +30,11 @@
 #include "assets/inc/ui/slide_view_h.data"
 #include "assets/inc/ui/timeset.data"
 #ifdef WITH_STB_IMAGE
+#include "assets/inc/images/g_background.res"
+#include "assets/inc/images/logo.res"
 #else
+#include "assets/inc/images/g_background.data"
+#include "assets/inc/images/logo.data"
 #endif/*WITH_STB_IMAGE*/
 #ifdef WITH_VGCANVAS
 #endif/*WITH_VGCANVAS*/
@@ -49,6 +55,8 @@ ret_t assets_init(void) {
   assets_manager_load(rm, ASSET_TYPE_STYLE, "default");
   assets_manager_load(rm, ASSET_TYPE_FONT, "default");
 #else
+  assets_manager_add(rm, image_g_background);
+  assets_manager_add(rm, image_logo);
   assets_manager_add(rm, strings_en_US);
   assets_manager_add(rm, strings_ja_JP);
   assets_manager_add(rm, strings_ko_KR);
@@ -61,7 +69,9 @@ ret_t assets_init(void) {
   assets_manager_add(rm, ui_air_quality);
   assets_manager_add(rm, ui_gvs_main);
   assets_manager_add(rm, ui_hvac);
+  assets_manager_add(rm, ui_index);
   assets_manager_add(rm, ui_input_number);
+  assets_manager_add(rm, ui_loading);
   assets_manager_add(rm, ui_make_color);
   assets_manager_add(rm, ui_mulfuncchildwin);
   assets_manager_add(rm, ui_mulfuncfour);

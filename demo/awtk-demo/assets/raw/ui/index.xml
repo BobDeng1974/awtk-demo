@@ -1,4 +1,4 @@
-<window anim_hint="htranslate" > 
+<window anim_hint="htranslate" style="sky"> 
   <label name="dis_ifname" x="0" y="2" w="22.5%" h="5.7%" text="HOME"/>
   <label name="dis_date" x="170" y="2" w="19.79%" h="5.7%" text="6-24"/>
   <label name="dis_time" x="242" y="2" w="16.67%" h="5.7%" text="17:35"/>

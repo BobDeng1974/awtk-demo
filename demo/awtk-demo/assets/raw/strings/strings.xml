@@ -25,3 +25,10 @@
 <language name="ko_KR">안녕하세요</language>
 </string>
 
+<string name="loading">
+<language name="en_US">loading</language>
+<language name="zh_CN">加载中</language>
+<language name="zh_TW">加载中</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
