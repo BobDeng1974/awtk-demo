@@ -39,12 +39,20 @@
 #include "ui_loader/ui_builder_default.h"
 #include "ext_widgets.h"
 
-extern ret_t demo_loading_init();
 
-ret_t application_init() {
-  tk_ext_widgets_init();
-  awtk_set_locale_simplified_chinese();
-  /* 初始化记载窗口 */
-  demo_loading_init();
+ret_t awtk_demo_qq_init(void* ctx, event_t* e) 
+{
+  widget_t *qq = window_open((const char *)ctx);
+  widget_t *msg = widget_lookup(qq, "msg", TRUE);
+  widget_set_tr_text(msg, "Message");
+
+  widget_t *contact = widget_lookup(qq, "contact", TRUE);
+  widget_set_tr_text(contact, "Contact");
+
+  widget_t *discovery = widget_lookup(qq, "discovery", TRUE);
+  widget_set_tr_text(discovery, "Discovery");
+
+  widget_t *me = widget_lookup(qq, "me", TRUE);
+  widget_set_tr_text(me, "Me");
   return RET_OK;
 }
