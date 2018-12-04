@@ -1,3 +1,9 @@
+<window_manager>
+  <style name="default">
+    <normal bg_image="g_background"/>
+  </style>
+</window_manager>
+
 <window>
   <style name="default">
     <normal bg_color="#f0f0f0"/>
@@ -20,7 +26,18 @@
     <over       bg_color="#e0e0e0" />
     <disable    bg_color="gray" text_color="#d0d0d0" />
   </style>
-  
+  <style name="qq_style">
+    <normal   icon="qq"/>
+    <over     icon="qq"/>
+    <pressed  bg_color="#c0c0c0" icon="qq"/>
+  </style>
+
+  <style name="wechat_style">
+    <normal   icon="weichat"/>
+    <over     icon="weichat"/>
+    <pressed  bg_color="#c0c0c0" icon="weichat"/>
+  </style>
+
   <style name="combobox_down" border_color="#a0a0a0">
     <normal     bg_color="#f0f0f0" icon="arrow_down_n"/>
     <pressed    bg_color="#c0c0c0" icon="arrow_down_p"/>
@@ -88,6 +105,9 @@
   <style name="over_style" border_color="#a0a0a0"  text_color="black">
     <pressed    bg_color="#c0c0c0" />
   </style>
+
+
+
 </button>
 
 <edit>
@@ -177,7 +197,7 @@
     <over_of_checked icon="checked" text_color="green"/>
   </style>
 
-   <style name="oneIcon1">
+  <style name="oneIcon1">
     <normal  icon="oneIcon1"/>
     <over   icon="oneIcon1"/>
     <over_of_checked   icon="threeIcon1"/>
@@ -185,6 +205,25 @@
     <pressed_of_checked icon="threeIcon1" x_offset="12" y_offset="12"/>
     <normal_of_checked icon="threeIcon1"/>
   </style>
+
+  <style name="qq_style">
+    <normal  icon="qq"/>
+    <over   icon="qq"/>
+    <over_of_checked   icon="qq"/>
+    <pressed   icon="qq" x_offset="6" y_offset="6"/>
+    <pressed_of_checked icon="qq" x_offset="6" y_offset="6"/>
+    <normal_of_checked icon="qq"/>
+  </style>
+
+  <style name="weichat_style">
+    <normal  icon="weichat"/>
+    <over   icon="weichat"/>
+    <over_of_checked   icon="weichat"/>
+    <pressed   icon="weichat" x_offset="6" y_offset="6"/>
+    <pressed_of_checked icon="weichat" x_offset="6" y_offset="6"/>
+    <normal_of_checked icon="weichat"/>
+  </style>
+
 
    <style name="oneIcon2">
     <normal  icon="oneIcon2"/>

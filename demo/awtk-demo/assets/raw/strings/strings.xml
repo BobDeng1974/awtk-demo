@@ -32,3 +32,35 @@
 <language name="ja_JP">こんにちは</language>
 <language name="ko_KR">안녕하세요</language>
 </string>
+
+<string name="Message">
+<language name="en_US">Message</language>
+<language name="zh_CN">消息</language>
+<language name="zh_TW">消息</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
+
+<string name="Contact">
+<language name="en_US">Contact</language>
+<language name="zh_CN">通讯录</language>
+<language name="zh_TW">通讯录</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
+
+<string name="Discovery">
+<language name="en_US">Discovery</language>
+<language name="zh_CN">探索</language>
+<language name="zh_TW">探索</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
+
+<string name="Me">
+<language name="en_US">Me</language>
+<language name="zh_CN">我的</language>
+<language name="zh_TW">我的</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>
