@@ -17,9 +17,12 @@
 #include "assets/inc/ui/qq.data"
 #include "assets/inc/ui/system_bar.data"
 #ifdef WITH_STB_IMAGE
+#include "assets/inc/images/about.res"
 #include "assets/inc/images/close.res"
 #include "assets/inc/images/contact.res"
 #include "assets/inc/images/contact_active.res"
+#include "assets/inc/images/detailed.res"
+#include "assets/inc/images/device.res"
 #include "assets/inc/images/discovery.res"
 #include "assets/inc/images/discovery_active.res"
 #include "assets/inc/images/g_background.res"
@@ -32,11 +35,17 @@
 #include "assets/inc/images/msg.res"
 #include "assets/inc/images/msg_active.res"
 #include "assets/inc/images/qq.res"
+#include "assets/inc/images/setting.res"
+#include "assets/inc/images/switch.res"
+#include "assets/inc/images/update.res"
 #include "assets/inc/images/weichat.res"
 #else
+#include "assets/inc/images/about.data"
 #include "assets/inc/images/close.data"
 #include "assets/inc/images/contact.data"
 #include "assets/inc/images/contact_active.data"
+#include "assets/inc/images/detailed.data"
+#include "assets/inc/images/device.data"
 #include "assets/inc/images/discovery.data"
 #include "assets/inc/images/discovery_active.data"
 #include "assets/inc/images/g_background.data"
@@ -49,6 +58,8 @@
 #include "assets/inc/images/msg.data"
 #include "assets/inc/images/msg_active.data"
 #include "assets/inc/images/qq.data"
+#include "assets/inc/images/setting.data"
+#include "assets/inc/images/switch.data"
 #include "assets/inc/images/weichat.data"
 #endif/*WITH_STB_IMAGE*/
 #ifdef WITH_VGCANVAS
@@ -70,9 +81,12 @@ ret_t assets_init(void) {
   assets_manager_load(rm, ASSET_TYPE_STYLE, "default");
   assets_manager_load(rm, ASSET_TYPE_FONT, "default");
 #else
+  assets_manager_add(rm, image_about);
   assets_manager_add(rm, image_close);
   assets_manager_add(rm, image_contact);
   assets_manager_add(rm, image_contact_active);
+  assets_manager_add(rm, image_detailed);
+  assets_manager_add(rm, image_device);
   assets_manager_add(rm, image_discovery);
   assets_manager_add(rm, image_discovery_active);
   assets_manager_add(rm, image_g_background);
@@ -85,6 +99,8 @@ ret_t assets_init(void) {
   assets_manager_add(rm, image_msg);
   assets_manager_add(rm, image_msg_active);
   assets_manager_add(rm, image_qq);
+  assets_manager_add(rm, image_setting);
+  assets_manager_add(rm, image_switch);
   assets_manager_add(rm, image_weichat);
   assets_manager_add(rm, strings_en_US);
   assets_manager_add(rm, strings_ja_JP);

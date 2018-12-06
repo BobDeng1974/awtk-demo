@@ -43,6 +43,8 @@
 ret_t awtk_demo_qq_init(void* ctx, event_t* e) 
 {
   widget_t *qq = window_open((const char *)ctx);
+
+  /* 为底部标题栏设置国际化 */
   widget_t *msg = widget_lookup(qq, "msg", TRUE);
   widget_set_tr_text(msg, "Message");
 
@@ -54,5 +56,8 @@ ret_t awtk_demo_qq_init(void* ctx, event_t* e)
 
   widget_t *me = widget_lookup(qq, "me", TRUE);
   widget_set_tr_text(me, "Me");
+
+  widget_t *device = widget_lookup(qq, "device", TRUE);
+  widget_set_tr_text(device, "Device");
   return RET_OK;
 }
