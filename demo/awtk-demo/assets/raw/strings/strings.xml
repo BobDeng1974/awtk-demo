@@ -64,3 +64,11 @@
 <language name="ja_JP">こんにちは</language>
 <language name="ko_KR">안녕하세요</language>
 </string>
+
+<string name="Device">
+<language name="en_US">Device</language>
+<language name="zh_CN">设备</language>
+<language name="zh_TW">设备</language>
+<language name="ja_JP">こんにちは</language>
+<language name="ko_KR">안녕하세요</language>
+</string>

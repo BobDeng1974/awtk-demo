@@ -141,9 +141,11 @@
   <style name="default">
     <normal text_color="white" font_size="20" font_name="default"/>
   </style>
-
+  <style name="qq_me">
+    <normal text_color="black" font_size="20" text_align_h="left"/>
+  </style>
   <style name="green">
-    <normal text_color="green" font_size="30"/>
+    <normal text_color="green" font_size="30" text_align_h="left"/>
   </style>
 
   <style name="left">

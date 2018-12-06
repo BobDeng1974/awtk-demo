@@ -112,11 +112,14 @@ ret_t on_qq_open_window(void* ctx)
   window_open((const char *)ctx);
 }
 
+//uint8_t *label_dis_title = "<font color=&quota;blue&quota; size==&quota;18&quota;>中国移动</font>";
+uint8_t *label_dis_title = "<font align=\"center\" color=\"white\" size=\"25\">中国移动</font>";
+
 ret_t awtk_demo_index() 
 {
   widget_t *system_bar = window_open("system_bar");
   widget_t *dis_title = widget_lookup(system_bar, "dis_title", TRUE);
-  widget_set_text_utf8(dis_title, "中国移动");
+  widget_set_text_utf8(dis_title, label_dis_title);
 
   widget_t *index = window_open("index");
 
