@@ -17,6 +17,7 @@
 #include "assets/inc/ui/qq.data"
 #include "assets/inc/ui/system_bar.data"
 #ifdef WITH_STB_IMAGE
+#include "assets/inc/images/a.res"
 #include "assets/inc/images/about.res"
 #include "assets/inc/images/close.res"
 #include "assets/inc/images/contact.res"
@@ -35,11 +36,14 @@
 #include "assets/inc/images/msg.res"
 #include "assets/inc/images/msg_active.res"
 #include "assets/inc/images/qq.res"
+#include "assets/inc/images/qq_lab.res"
+#include "assets/inc/images/red_circle.res"
 #include "assets/inc/images/setting.res"
 #include "assets/inc/images/switch.res"
 #include "assets/inc/images/update.res"
 #include "assets/inc/images/weichat.res"
 #else
+#include "assets/inc/images/a.data"
 #include "assets/inc/images/about.data"
 #include "assets/inc/images/close.data"
 #include "assets/inc/images/contact.data"
@@ -58,6 +62,8 @@
 #include "assets/inc/images/msg.data"
 #include "assets/inc/images/msg_active.data"
 #include "assets/inc/images/qq.data"
+#include "assets/inc/images/qq_lab.data"
+#include "assets/inc/images/red_circle.data"
 #include "assets/inc/images/setting.data"
 #include "assets/inc/images/switch.data"
 #include "assets/inc/images/weichat.data"
@@ -81,6 +87,7 @@ ret_t assets_init(void) {
   assets_manager_load(rm, ASSET_TYPE_STYLE, "default");
   assets_manager_load(rm, ASSET_TYPE_FONT, "default");
 #else
+  assets_manager_add(rm, image_a);
   assets_manager_add(rm, image_about);
   assets_manager_add(rm, image_close);
   assets_manager_add(rm, image_contact);
@@ -99,6 +106,8 @@ ret_t assets_init(void) {
   assets_manager_add(rm, image_msg);
   assets_manager_add(rm, image_msg_active);
   assets_manager_add(rm, image_qq);
+  assets_manager_add(rm, image_qq_lab);
+  assets_manager_add(rm, image_red_circle);
   assets_manager_add(rm, image_setting);
   assets_manager_add(rm, image_switch);
   assets_manager_add(rm, image_weichat);
