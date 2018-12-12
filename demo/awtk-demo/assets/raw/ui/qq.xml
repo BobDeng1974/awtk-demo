@@ -1,5 +1,5 @@
 <window anim_hint="htranslate" theme="tab_bottom" style="sky">
-  <pages x="0" y="0" w="100%" h="-60" style="at_top">
+  <pages name="qq_pages" x="0" y="0" w="100%" h="-60" style="at_top">
     <?include filename="tab_views.inc" ?>
   </pages>
   <tab_button_group x="0" y="bottom" w="100%" h="60" >

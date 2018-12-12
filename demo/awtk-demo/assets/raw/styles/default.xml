@@ -105,9 +105,6 @@
   <style name="over_style" border_color="#a0a0a0"  text_color="black">
     <pressed    bg_color="#c0c0c0" />
   </style>
-
-
-
 </button>
 
 <edit>
@@ -143,6 +140,15 @@
   </style>
   <style name="qq_me">
     <normal text_color="black" font_size="20" text_align_h="left"/>
+  </style>
+  <style name="qq_num_index">
+    <normal text_color="white" font_size="20" font_name="default" text_align_h="center" text_align_v="top"/>
+  </style>
+  <style name="qq_black">
+    <normal text_color="black" font_size="20" text_align_h="left" text_align_v="top"/>
+  </style>
+    <style name="qq_main_black">
+    <normal text_color="black" font_size="25" text_align_h="left" text_align_v="top"/>
   </style>
   <style name="green">
     <normal text_color="green" font_size="30" text_align_h="left"/>
