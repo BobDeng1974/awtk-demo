@@ -38,7 +38,7 @@
 #include "base/widget_factory.h"
 #include "ui_loader/ui_builder_default.h"
 #include "ext_widgets.h"
-
+#include "scroll_view/list_item.h"
 
 ret_t awtk_demo_qq_init(void* ctx, event_t* e) 
 {
@@ -60,41 +60,46 @@ ret_t awtk_demo_qq_init(void* ctx, event_t* e)
   widget_t *device = widget_lookup(qq, "device", TRUE);
   widget_set_tr_text(device, "Device");
 
-  widget_t *qq_pages = widget_lookup(msg, "qq_pages", TRUE);
+  widget_t *qq_pages = widget_lookup(qq, "qq_pages", TRUE);
+  if (qq_pages == NULL) {
+    log_debug("---------qq_pages NULL---------------------------------------\r\n");
+    return RET_FAIL;
+  }
   widget_t *qq_msg = widget_lookup(qq_pages, "qq_msg", TRUE);
   if (qq_msg == NULL) {
     log_debug("---------qq_msg NULL---------------------------------------\r\n");
+    return RET_FAIL;
   }
-
+ 
   widget_t *qq_view = widget_lookup(qq_msg, "qq_view", TRUE);
   
-
   if (qq_view != NULL) {
-    widget_t *new_list_item = list_item_create(qq_view, 0, 0, 32, 32);
-    if (new_list_item != NULL) {
-      /* 设置  new_list_item  的style*/
-      widget_use_style(new_list_item, "odd_clickable");
-      
-      widget_layout_t layout;
-      widget_layout_parse(&layout, NULL, "t:5", NULL, "50");
-      widget_set_self_layout(new_list_item, &layout);
-    }
-    log_debug("---------test2---------------------------------------\r\n");
+    log_debug("---------qq_view NOT NULL---------------------------------------\r\n");
 
-    /* 创建聊天的对象图片 */
-    widget_t *new_img = image_create(qq_view, 0, 0, 32, 32);
-    image_set_draw_type(new_img, IMAGE_DRAW_ICON);
-    image_set_image(new_img, "a");
+    widget_t *new_view1 = view_create(qq_view, 0, 0, 0, 0);
+    widget_use_style(new_view1, "odd_clickable");
+    // widget_layout_t new_view1_layout;
+    // widget_layout_parse(&new_view1_layout, "r:5", "0", "8%", "50");
+    // widget_set_self_layout(new_view1, &new_view1_layout);
+	
+    // widget_t *new_img = image_create(new_view1, 0, 0, 32, 32);
+    // image_set_draw_type(new_img, IMAGE_DRAW_ICON);
+    // image_set_image(new_img, "a");
+	  // widget_t *new_list_item = NULL;
+    // new_list_item = list_item_create(qq_view, 0, 0, 32, 32);
+    // if (new_list_item != NULL) {
+    //   log_debug("---------new_list_item NOT NULL---------------------------------------\r\n");
+    //   widget_use_style(new_list_item, "odd_clickable");
+    //   widget_layout_t layout;
+    //   widget_layout_parse(&layout, NULL, "t:5", NULL, "50");
+    //   widget_set_self_layout(new_list_item, &layout);
 
-    widget_add_child(new_list_item, new_img);
+    //   widget_set_children_layout_params(new_list_item, "r1 c0 s2 m2");
+    // }
 
-    // widget_layout_t *new_img_style = widget_layout_parse();
     
-    // log_debug("test3");
-    
-  } else {
-     log_debug("---------test3---------------------------------------\r\n");
   }
+
 
   return RET_OK;
 }
