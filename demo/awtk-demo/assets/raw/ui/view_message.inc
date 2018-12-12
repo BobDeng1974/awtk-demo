@@ -3,7 +3,7 @@
       <list_view name="qq_msg" x="40"  y="10" w="100%" h="-80" item_height="70">
         <scroll_view name="qq_view" x="0"  y="0" w="100%" h="100%">
           <list_item style="odd_clickable" y="5" h="50" layout="r1 c0 s2 m2">
-            <view x="r:5" y="0" w="8%" h="50">
+            <view x="5" y="0" w="8%" h="50">
               <image draw_type="icon" x="r:5" y="0" w="100%" h="50" image="a"/>
             </view>
             <view x="r:10" w="82%">
