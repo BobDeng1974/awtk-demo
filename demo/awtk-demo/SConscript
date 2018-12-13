@@ -5,8 +5,12 @@ BIN_DIR=os.environ['BIN_DIR'];
 LIB_DIR=os.environ['LIB_DIR'];
 
 env.Library(os.path.join(LIB_DIR, 'assets'), ['assets.c']);
+env.Library(os.path.join(LIB_DIR, 'cjson'), Glob('cJSON/cJSON.c'));
+env.Library(os.path.join(LIB_DIR, 'mqtt'), Glob('mqtt/*.c'));
 
 env['LIBS'] = ['assets'] + env['LIBS']
+env['LIBS'] = ['cjson'] + env['LIBS']
+env['LIBS'] = ['mqtt'] + env['LIBS']
 env['LINKFLAGS'] = env['OS_SUBSYSTEM_WINDOWS'] + env['LINKFLAGS'];
 
 #env.Program(os.path.join(BIN_DIR, 'demo1'), ['demo_main.c', 'demo1_app.c']);
@@ -17,6 +21,8 @@ env['LINKFLAGS'] = env['OS_SUBSYSTEM_WINDOWS'] + env['LINKFLAGS'];
 #env.Program(os.path.join(BIN_DIR, 'demo_thread'), ['demo_thread_app.c', 'demo_main.c']);
 
 #env.Program(os.path.join(BIN_DIR, 'preview_ui'), ['preview_ui.c']);
+
+
 env.Program(os.path.join(BIN_DIR, 'demo_ui'), ['awtk_demo_main.c', 'awtk_demo_ui_app.c','awtk_demo_locale.c', 
 'awtk_demo_loading.c', 'awtk_demo_index.c','awtk_demo_qq.c']);
 
