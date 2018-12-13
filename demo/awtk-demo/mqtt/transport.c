@@ -4,7 +4,7 @@
 static SOCKET mqtt_socket;
 int transport_sendPacketBuffer(unsigned char *buf, int buflen)
 {
-    uint16_t rc;
+    int rc;
     rc = send(mqtt_socket, buf, buflen, 0);  
     if (rc != buflen) {  
 
@@ -14,8 +14,11 @@ int transport_sendPacketBuffer(unsigned char *buf, int buflen)
 
 int transport_getdata(unsigned char *buf, int count)
 {
-    uint16_t rc;
-    
+    int rc;
+    rc = recv(mqtt_socket, buf, count, 0);
+    if (rc == 0) {
+        
+    }
     return rc;
 }
 
@@ -82,5 +85,7 @@ int8_t transport_open(unsigned char* servip, int port)
 int8_t transport_close()
 {
     uint32_t rc;
+    rc = closesocket(mqtt_socket);
+    WSACleanup();
     return rc;
 }
