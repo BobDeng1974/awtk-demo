@@ -33,14 +33,14 @@ typedef struct __mqtt_pub_topic{
 } __mqtt_pub_topic_t;
  
 typedef struct __mqtt_handle {
-    int32_t                 socket;
+    SOCKET                 socket;
     uint8_t                 mqtt_status;
     uint8_t                 hostname[64];
     uint16_t                port;
 
     MQTTPacket_connectData  connectData;
     
-    int8_t                  (*fpn_open)(unsigned char *hostname, int port);
+    SOCKET                  (*fpn_open)(unsigned char *hostname, int port);
     int                     (*fpn_send)(unsigned char *buf, int len);
     int                     (*fpn_recv)(unsigned char *buf, int len);
     int8_t                  (*fpn_close)();
