@@ -24,7 +24,7 @@ env['LINKFLAGS'] = env['OS_SUBSYSTEM_WINDOWS'] + env['LINKFLAGS'];
 
 
 env.Program(os.path.join(BIN_DIR, 'demo_ui'), ['awtk_demo_main.c', 'awtk_demo_ui_app.c','awtk_demo_locale.c', 
-'awtk_demo_loading.c', 'awtk_demo_index.c','awtk_demo_qq.c']);
+'awtk_demo_loading.c', 'awtk_demo_index.c','awtk_demo_qq.c','awtk_demo_qq_login.c']);
 
 
 

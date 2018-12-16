@@ -19,7 +19,7 @@
  *
  */
 
-#include "awtk.h"
+#include "base/types_def.h"
 #include "tkc/mem.h"
 #include "widgets/label.h"
 #include "base/timer.h"
@@ -36,15 +36,16 @@
 #include "base/image_manager.h"
 #include "base/window_manager.h"
 #include "base/widget_factory.h"
+#include "widgets/view.h"
 #include "ui_loader/ui_builder_default.h"
 #include "ext_widgets.h"
+#include "scroll_view/list_item.h"
+#include "scroll_view/scroll_bar.h"
+#include "cJSON.h"
 
-extern ret_t demo_loading_init();
+ret_t awtk_demo_qq_login(void* ctx, event_t* e) 
+{
+  window_open((const char *)ctx);
 
-ret_t application_init() {
-  tk_ext_widgets_init();
-  awtk_set_locale_simplified_chinese();
-  /* 初始化记载窗口 */
-  demo_loading_init();
   return RET_OK;
 }
