@@ -32,7 +32,7 @@
 #include <ctype.h>
 #include "cJSON.h"
 
-#include "base/mem.h"
+#include "tkc/mem.h"
 
 void* cjosn_alloc(size_t nmemb)
 {

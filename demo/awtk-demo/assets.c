@@ -15,10 +15,12 @@
 #include "assets/inc/ui/index.data"
 #include "assets/inc/ui/loading.data"
 #include "assets/inc/ui/qq.data"
+#include "assets/inc/ui/qq_login.data"
 #include "assets/inc/ui/system_bar.data"
 #ifdef WITH_STB_IMAGE
 #include "assets/inc/images/a.res"
 #include "assets/inc/images/about.res"
+#include "assets/inc/images/bee.res"
 #include "assets/inc/images/close.res"
 #include "assets/inc/images/contact.res"
 #include "assets/inc/images/contact_active.res"
@@ -26,25 +28,31 @@
 #include "assets/inc/images/device.res"
 #include "assets/inc/images/discovery.res"
 #include "assets/inc/images/discovery_active.res"
+#include "assets/inc/images/find.res"
 #include "assets/inc/images/g_background.res"
 #include "assets/inc/images/g_menuborder.res"
 #include "assets/inc/images/g_page_number_off.res"
 #include "assets/inc/images/g_page_number_on.res"
+#include "assets/inc/images/loadding.res"
 #include "assets/inc/images/logo.res"
 #include "assets/inc/images/me.res"
 #include "assets/inc/images/me_active.res"
 #include "assets/inc/images/msg.res"
 #include "assets/inc/images/msg_active.res"
+#include "assets/inc/images/passwd.res"
 #include "assets/inc/images/qq.res"
 #include "assets/inc/images/qq_lab.res"
 #include "assets/inc/images/red_circle.res"
 #include "assets/inc/images/setting.res"
 #include "assets/inc/images/switch.res"
 #include "assets/inc/images/update.res"
+#include "assets/inc/images/user.res"
+#include "assets/inc/images/user_login.res"
 #include "assets/inc/images/weichat.res"
 #else
 #include "assets/inc/images/a.data"
 #include "assets/inc/images/about.data"
+#include "assets/inc/images/bee.data"
 #include "assets/inc/images/close.data"
 #include "assets/inc/images/contact.data"
 #include "assets/inc/images/contact_active.data"
@@ -52,20 +60,24 @@
 #include "assets/inc/images/device.data"
 #include "assets/inc/images/discovery.data"
 #include "assets/inc/images/discovery_active.data"
+#include "assets/inc/images/find.data"
 #include "assets/inc/images/g_background.data"
 #include "assets/inc/images/g_menuborder.data"
 #include "assets/inc/images/g_page_number_off.data"
 #include "assets/inc/images/g_page_number_on.data"
+#include "assets/inc/images/loadding.data"
 #include "assets/inc/images/logo.data"
 #include "assets/inc/images/me.data"
 #include "assets/inc/images/me_active.data"
 #include "assets/inc/images/msg.data"
 #include "assets/inc/images/msg_active.data"
+#include "assets/inc/images/passwd.data"
 #include "assets/inc/images/qq.data"
 #include "assets/inc/images/qq_lab.data"
 #include "assets/inc/images/red_circle.data"
 #include "assets/inc/images/setting.data"
 #include "assets/inc/images/switch.data"
+#include "assets/inc/images/user_login.data"
 #include "assets/inc/images/weichat.data"
 #endif/*WITH_STB_IMAGE*/
 #ifdef WITH_VGCANVAS
@@ -89,6 +101,7 @@ ret_t assets_init(void) {
 #else
   assets_manager_add(rm, image_a);
   assets_manager_add(rm, image_about);
+  assets_manager_add(rm, image_bee);
   assets_manager_add(rm, image_close);
   assets_manager_add(rm, image_contact);
   assets_manager_add(rm, image_contact_active);
@@ -96,20 +109,24 @@ ret_t assets_init(void) {
   assets_manager_add(rm, image_device);
   assets_manager_add(rm, image_discovery);
   assets_manager_add(rm, image_discovery_active);
+  assets_manager_add(rm, image_find);
   assets_manager_add(rm, image_g_background);
   assets_manager_add(rm, image_g_menuborder);
   assets_manager_add(rm, image_g_page_number_off);
   assets_manager_add(rm, image_g_page_number_on);
+  assets_manager_add(rm, image_loadding);
   assets_manager_add(rm, image_logo);
   assets_manager_add(rm, image_me);
   assets_manager_add(rm, image_me_active);
   assets_manager_add(rm, image_msg);
   assets_manager_add(rm, image_msg_active);
+  assets_manager_add(rm, image_passwd);
   assets_manager_add(rm, image_qq);
   assets_manager_add(rm, image_qq_lab);
   assets_manager_add(rm, image_red_circle);
   assets_manager_add(rm, image_setting);
   assets_manager_add(rm, image_switch);
+  assets_manager_add(rm, image_user_login);
   assets_manager_add(rm, image_weichat);
   assets_manager_add(rm, strings_en_US);
   assets_manager_add(rm, strings_ja_JP);
@@ -125,6 +142,7 @@ ret_t assets_init(void) {
   assets_manager_add(rm, ui_index);
   assets_manager_add(rm, ui_loading);
   assets_manager_add(rm, ui_qq);
+  assets_manager_add(rm, ui_qq_login);
   assets_manager_add(rm, ui_system_bar);
 #ifdef WITH_VGCANVAS
 #endif/*WITH_VGCANVAS*/

@@ -108,7 +108,7 @@
 </button>
 
 <edit>
-  <style name="default" border_color="#a0a0a0"  text_color="black" text_align_h="left">
+  <style name="default" border_color="#a0a0a0"  text_color="black" text_align_h="left" round_radius="8">
     <normal     bg_color="#f0f0f0" />
     <focused    bg_color="#f0f0f0" border_color="black"/>
     <disable    bg_color="gray" text_color="#d0d0d0" />

@@ -20,19 +20,19 @@
  */
 
 #include "awtk.h"
-#include "base/mem.h"
-#include "base/label.h"
+#include "tkc/mem.h"
+#include "widgets/label.h"
 #include "base/timer.h"
-#include "base/button.h"
-#include "base/dialog.h"
-#include "base/image.h"
-#include "base/utils.h"
-#include "base/window.h"
-#include "base/time_now.h"
+#include "widgets/button.h"
+#include "widgets/dialog.h"
+#include "widgets/image.h"
+#include "tkc/utils.h"
+#include "widgets/window.h"
+#include "tkc/time_now.h"
 #include "base/main_loop.h"
 #include "base/locale_info.h"
-#include "base/check_button.h"
-#include "base/progress_bar.h"
+#include "widgets/check_button.h"
+#include "widgets/progress_bar.h"
 #include "base/image_manager.h"
 #include "base/window_manager.h"
 #include "base/widget_factory.h"
@@ -45,6 +45,7 @@
 
 extern ret_t demo_loading_init();
 extern ret_t awtk_demo_qq_init(void* ctx, event_t* e);
+extern ret_t awtk_demo_qq_login(void* ctx, event_t* e);
 
 static void open_window(const char* name, widget_t* to_close);
 
@@ -62,9 +63,9 @@ static ret_t install_one(void* ctx, const void* iter) {
   log_debug("%s\r\n", widget->name);
   if (widget->name != NULL) {
     const char* name = widget->name;
-    if (strstr(name, "open:qq") != NULL) {
+    if (strstr(name, "open:qq_login") != NULL) {
       log_debug("install %s\r\n", name);
-      widget_on(widget, EVT_CLICK, awtk_demo_qq_init, (void*)(name + 5));
+      widget_on(widget, EVT_CLICK, awtk_demo_qq_login, (void*)(name + 5));
     }
   }
   (void)ctx;
