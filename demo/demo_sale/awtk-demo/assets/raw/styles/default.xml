@@ -42,6 +42,11 @@
     <over     icon="sale"/>
     <pressed  bg_color="#c0c0c0" icon="sale"/>
   </style>
+  <style name="select_style">
+    <normal   icon="select"/>
+    <over     icon="select"/>
+    <pressed  bg_color="#c0c0c0" icon="select"/>
+  </style>
   <style name="combobox_down" border_color="#a0a0a0">
     <normal     bg_color="#f0f0f0" icon="arrow_down_n"/>
     <pressed    bg_color="#c0c0c0" icon="arrow_down_p"/>
@@ -383,7 +388,7 @@
   <style name="selectable">
     <normal text_color="black"/>
     <pressed border_color="#000000" bg_color="#e0e0e0" text_color="black"/>
-    <selected icon="check" border_color="#000000" bg_color="#e0e0e0" text_color="black"/>
+    <selected icon="check" />
   </style>
 </image>
 
@@ -517,7 +522,7 @@
 </slide_view>
 
 <view>
-  <style name="view_border" >
-    <normal     bg_image="test" />
+  <style name="sale_border" >
+    <normal     bg_image="sale_bord" />
   </style>
 </view>

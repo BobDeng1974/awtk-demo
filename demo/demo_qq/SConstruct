@@ -6,7 +6,7 @@ def joinPath(root, subdir):
 
 OS_NAME=platform.system()
 
-TK_ROOT = os.path.normpath(os.getcwd()+'/../../awtk/awtk')
+TK_ROOT = os.path.normpath(os.getcwd()+'/../../awtk')
 APP_ROOT = os.path.normpath(os.getcwd())
 APP_3RD_ROOT = joinPath(APP_ROOT, '3rd')
 APP_BIN_ROOT=joinPath(APP_ROOT, 'bin')

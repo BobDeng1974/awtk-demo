@@ -13,7 +13,7 @@ build_job:
     - echo %APP_ENV% 
     - call %APP_ENV%\startup_app.bat
     - echo %PATH%
-#    - python.exe build_target.py
+    - python.exe build_target.py
 #    - python.exe package_target.py
   tags:
     - win_qt_env
