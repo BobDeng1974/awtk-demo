@@ -34,7 +34,7 @@ cur_path = os.getcwd()
 print cur_path
 
 os.system("call build_target.bat")
-InstallDir("demo/demo_sale/bin", "awtk/awtk/bin", "*.exe");
+InstallDir("demo/demo_sale/bin", "awtk/bin", "*.exe");
 
 cur_path = os.getcwd()
 print cur_path
