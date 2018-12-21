@@ -49,13 +49,13 @@ ret_t awtk_demo_sale_select_on(void* ctx, event_t* e)
   log_debug("fun is:%s line is:%d\r\n", __func__, __LINE__);
   widget_t *sale_ok = window_open("sale_ok");
 
-  widget_t *qr_dialog = widget_lookup(sale_ok, "qr_dialog", TRUE);
+  // widget_t *qr_dialog = widget_lookup(sale_ok, "qr_dialog", TRUE);
 
-  widget_t *new_qr_code = qr_create(qr_dialog, 0, 0, 0, 0);
-  qr_set_pixsize(new_qr_code, 3);
-  qr_set_text(new_qr_code, "致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子致远电子");
-  widget_set_self_layout_params(new_qr_code, "c", "30", "100%", "100%");
-  widget_set_name(new_qr_code, "new_qr_code");
+  // widget_t *new_qr_code = qr_create(qr_dialog, 0, 0, 0, 0);
+  // qr_set_pixsize(new_qr_code, 3);
+  // qr_set_text(new_qr_code, "致远电子");
+  // widget_set_self_layout_params(new_qr_code, "c:30", "30", "100%", "100%");
+  // widget_set_name(new_qr_code, "new_qr_code");
 
   return RET_OK;
 }

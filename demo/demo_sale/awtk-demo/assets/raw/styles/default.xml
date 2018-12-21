@@ -526,3 +526,9 @@
     <normal     bg_image="sale_bord" />
   </style>
 </view>
+
+<qr>
+  <style name="qr_border" >
+    <normal     bg_image="sale_bord" />
+  </style>
+</qr>
