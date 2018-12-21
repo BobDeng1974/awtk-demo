@@ -6,3 +6,6 @@ lib
 /demo/scripts/*.pyc
 /.vscode
 _build
+.sconsign.dblite
+*.bin
+*.pyc

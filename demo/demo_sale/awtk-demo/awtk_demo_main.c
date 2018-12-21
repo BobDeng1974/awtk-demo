@@ -56,7 +56,7 @@ int main(void) {
 #endif /*NDEBUG*/
 #endif /*WIN32*/
 
-  tk_init(800, 480, APP_SIMULATOR, NULL, res_root);
+  tk_init(480, 800, APP_SIMULATOR, NULL, res_root);
 #endif
 
 //#define WITH_LCD_PORTRAIT 1
