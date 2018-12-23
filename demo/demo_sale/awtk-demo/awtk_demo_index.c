@@ -131,6 +131,6 @@ ret_t awtk_demo_index()
 
   install_click_hander(index);
   
-  timer_add(awtk_get_currtime, system_bar, 0);
+  // timer_add(awtk_get_currtime, system_bar, 0);
   return RET_OK;
 }
