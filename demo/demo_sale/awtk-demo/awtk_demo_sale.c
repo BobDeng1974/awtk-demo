@@ -44,11 +44,32 @@
 #include "widgets/qr.h"
 #include "cJSON.h"
 
+ret_t demo_qr_timer_cb(const timer_info_t* timer)
+{
+  widget_t* win = WIDGET(timer->ctx);
+  
+  static uint8_t timer_count = 0;
+  timer_count ++;
+  if(timer_count == 1) {
+    widget_set_state(win, WIDGET_STATE_SCANED);
+    return RET_REMOVE;
+  }
+
+  return RET_REPEAT;
+}
+
+
 ret_t awtk_demo_sale_select_on(void* ctx, event_t* e)
 {
   log_debug("fun is:%s line is:%d\r\n", __func__, __LINE__);
   widget_t *sale_ok = window_open("sale_ok");
 
+  widget_t *qr_code = widget_lookup(sale_ok, "qr_code", TRUE);
+  if (qr_code != NULL) {
+    qr_set_pixsize(qr_code, 7);
+    timer_add(demo_qr_timer_cb, qr_code, 1000);
+    //widget_set_state(qr_code, WIDGET_STATE_SCANED);
+  }
   // widget_t *qr_dialog = widget_lookup(sale_ok, "qr_dialog", TRUE);
 
   // widget_t *new_qr_code = qr_create(qr_dialog, 0, 0, 0, 0);

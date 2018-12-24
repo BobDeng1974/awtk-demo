@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Name=demo_qr_timer_cb @1 @2 OverloadingParameters=[(Type=&quot;const _timer_info_t *&quot; Name=timer)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2242.24333333333,626.202499999998,141.74,25.24" Label="demo_qr_timer_cb" SourceLocation="(Assembly=file:///g:/demo/demo/demo_sale/awtk-demo/awtk_demo_sale.c StartLineNumber=52 StartCharacterOffset=0 EndLineNumber=52 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=qr_on_event @1 @2 @60 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1729.2,853.912499999997,105.826666666667,25.24" Label="qr_on_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=45 StartCharacterOffset=0 EndLineNumber=45 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=qr_on_paint_background @1 @2 @40 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1802.125,796.984999999997,177.976666666667,25.24" Label="qr_on_paint_background" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=222 StartCharacterOffset=0 EndLineNumber=222 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=qr_on_paint_border @1 @2 @40 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2170.25166666667,796.984999999997,147.723333333333,25.24" Label="qr_on_paint_border" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=168 StartCharacterOffset=0 EndLineNumber=168 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=qr_set_pixsize @1 @2 OverloadingParameters=[@29,(Type=&quot;unsigned char&quot; Name=pixsize)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1171.98833333333,967.767499999997,114.25,25.24" Label="qr_set_pixsize" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=96 StartCharacterOffset=0 EndLineNumber=96 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=qr_set_prop @1 @2 OverloadingParameters=[@29,@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2412.41666666667,796.984999999997,103.393333333333,25.24" Label="qr_set_prop" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=self_layouter_default_set_param @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,1366.26,218.226666666667,25.24" Label="self_layouter_default_set_param" SourceLocation="(Assembly=file:///g:/demo/awtk/src/layouters/self_layouter_default.c StartLineNumber=166 StartCharacterOffset=0 EndLineNumber=166 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=sleep_ms @1 Type=void OverloadingParameters=[(@21 Name=ms)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1244.01,398.492499999999,88.2066666666669,25.24" Label="sleep_ms" SourceLocation="(Assembly=file:///g:/demo/awtk/src/platforms/pc/platform.c StartLineNumber=91 StartCharacterOffset=0 EndLineNumber=91 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=style_data_get_color @1 @79 OverloadingParameters=[(Type=&quot;const unsigned char *&quot; Name=s),(@21 Name=name),(@79 Name=defval)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1957.14333333333,967.767499999996,151.94,25.24" Label="style_data_get_color">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="(Name=style_data_get_int @1 @21 OverloadingParameters=[(Type=&quot;const unsigned char *&quot; Name=s),(@21 Name=name),(@21 Name=defval)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2145.14166666667,967.767499999996,137.943333333333,25.24" Label="style_data_get_int" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/theme.c StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=theme_find_style @1 Type=&quot;const unsigned char *&quot; OverloadingParameters=[(Type=&quot;_theme_t *&quot; Name=t),(@22 Name=widget_type),@23,(Type=_widget_state_t Name=widget_state)] @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1697.97166666667,1252.405,132.283333333333,25.24" Label="theme_find_style" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/theme.c StartLineNumber=85 StartCharacterOffset=0 EndLineNumber=85 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=widget_draw_background @1 @2 @40 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1588.3,796.984999999997,183.626666666667,25.24" Label="widget_draw_background" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=680 StartCharacterOffset=0 EndLineNumber=680 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=widget_on_event_default @1 @2 @60 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1519.82166666667,853.912499999997,178.583333333333,25.24" Label="widget_on_event_default" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget_vtable.c StartLineNumber=55 StartCharacterOffset=0 EndLineNumber=55 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=window_manager_get_top_main_window @1 @8 @30 @3)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1087.745,796.984999999997,270.736666666667,25.24" Label="window_manager_get_top_main_window" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=524 StartCharacterOffset=0 EndLineNumber=524 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1214.18333333333,1252.405,185.86,25.24" Label="ui_builder_default_on_end" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/ui_builder_default.c StartLineNumber=85 StartCharacterOffset=0 EndLineNumber=85 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@100" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1854.66666666667,1593.96999999999,150.893333333333,25.24" Label="widget_move_resize" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=86 StartCharacterOffset=0 EndLineNumber=86 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@101" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="865.05,569.274999999998,188.126666666667,25.24" Label="window_animator_prepare" SourceLocation="(Assembly=file:///g:/demo/awtk/src/window_animators/window_animator_gpu.c StartLineNumber=78 StartCharacterOffset=0 EndLineNumber=78 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@102" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="593.648333333333,341.564999999999,98.9300000000001,25.24" Label="widget_init" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1558 StartCharacterOffset=0 EndLineNumber=1558 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1206.04166666667,1195.4775,140.143333333333,25.24" Label="ui_builder_on_end" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/ui_builder.c StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="861.511666666667,341.564999999999,167.203333333333,25.24" Label="idle_manager_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/idle.c StartLineNumber=214 StartCharacterOffset=0 EndLineNumber=214 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="785.021666666667,398.492499999999,320.183333333333,25.24" Label="window_manager_check_if_need_open_animation" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=148 StartCharacterOffset=0 EndLineNumber=148 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1043.75833333333,170.7825,120.71,25.24" Label="main_loop_run" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/main_loop.c StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1022.24,227.71,163.746666666667,25.24" Label="main_loop_simple_run" SourceLocation="(Assembly=file:///g:/demo/awtk/src/main_loop/main_loop_simple.c StartLineNumber=160 StartCharacterOffset=0 EndLineNumber=160 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1199.42833333333,284.637499999999,131.37,25.24" Label="main_loop_sleep" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/main_loop.c StartLineNumber=122 StartCharacterOffset=0 EndLineNumber=122 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1199.57,341.564999999999,177.086666666667,25.24" Label="main_loop_sleep_default" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/main_loop.c StartLineNumber=110 StartCharacterOffset=0 EndLineNumber=110 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="611.398333333333,455.419999999999,185.43,25.24" Label="main_loop_dispatch_input" SourceLocation="(Assembly=file:///g:/demo/awtk/src/main_loop/main_loop_simple.c StartLineNumber=149 StartCharacterOffset=0 EndLineNumber=149 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="614.725,512.347499999998,178.776666666667,25.24" Label="main_loop_sdl2_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/main_loop/sdl2_common.inc StartLineNumber=194 StartCharacterOffset=0 EndLineNumber=194 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1026.255,967.767499999997,115.716666666667,25.24" Label="window_open" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/window_open.c StartLineNumber=43 StartCharacterOffset=0 EndLineNumber=43 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="34.6816666666673,1081.6225,148.863333333333,25.24" Label="self_layouter_create" SourceLocation="(Assembly=file:///g:/demo/awtk/src/layouters/self_layouter_factory.c StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="27.5083333333332,1138.55,163.21,25.24" Label="func_call_parser_parse" SourceLocation="(Assembly=file:///g:/demo/awtk/src/tkc/func_call_parser.c StartLineNumber=56 StartCharacterOffset=0 EndLineNumber=56 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2414.55333333333,626.202499999998,141.12,25.24" Label="awtk_get_currtime" SourceLocation="(Assembly=file:///g:/demo/demo/demo_sale/awtk-demo/awtk_demo_index.c StartLineNumber=110 StartCharacterOffset=0 EndLineNumber=110 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2224.79833333333,569.274999999998,176.63,25.24" Label="timer_manager_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/timer.c StartLineNumber=239 StartCharacterOffset=0 EndLineNumber=239 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1248.93833333333,1309.33249999999,116.35,25.24" Label="widget_layout" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=29 StartCharacterOffset=0 EndLineNumber=29 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1108.12,1366.25999999999,167.986666666667,25.24" Label="widget_layout_children" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=76 StartCharacterOffset=0 EndLineNumber=76 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1168.26166666667,1423.18749999999,213.703333333333,25.24" Label="widget_layout_children_default" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1338.39,1366.25999999999,141.446666666667,25.24" Label="widget_layout_self" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=54 StartCharacterOffset=0 EndLineNumber=54 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1506.57166666667,1024.695,153.083333333333,25.24" Label="widget_update_style" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1512 StartCharacterOffset=0 EndLineNumber=1512 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1478.26,967.767499999996,209.706666666667,25.24" Label="widget_update_style_recursive" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1518 StartCharacterOffset=0 EndLineNumber=1518 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="990.358333333333,740.057499999997,321.51,25.24" Label="window_manager_dispatch_top_window_changed" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@38" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1664.79833333333,1195.4775,198.63,25.24" Label="widget_get_const_style_data" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style_const.c StartLineNumber=70 StartCharacterOffset=0 EndLineNumber=70 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@39" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="562.701666666667,284.637499999999,160.823333333333,25.24" Label="window_manager_init" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=628 StartCharacterOffset=0 EndLineNumber=628 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="994.688333333334,284.637499999999,110.85,25.24" Label="idle_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/idle.c StartLineNumber=256 StartCharacterOffset=0 EndLineNumber=256 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@41" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2010.86666666667,796.984999999997,128.493333333334,25.24" Label="qr_on_paint_self" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/qr.c StartLineNumber=109 StartCharacterOffset=0 EndLineNumber=109 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@42" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="597.935,796.984999999997,200.356666666667,25.24" Label="slide_view_on_paint_children" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ext_widgets/slide_view/slide_view.c StartLineNumber=617 StartCharacterOffset=0 EndLineNumber=617 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@43" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1761.605,740.057499999997,205.016666666667,25.24" Label="widget_on_paint_background" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1014 StartCharacterOffset=0 EndLineNumber=1014 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@44" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1562.83666666667,740.057499999997,168.553333333333,25.24" Label="widget_on_paint_begin" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1086 StartCharacterOffset=0 EndLineNumber=1086 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@45" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2183.73166666667,740.057499999997,174.763333333333,25.24" Label="widget_on_paint_border" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1063 StartCharacterOffset=0 EndLineNumber=1063 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@46" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="508.076666666667,740.057499999997,182.073333333333,25.24" Label="widget_on_paint_children" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1051 StartCharacterOffset=0 EndLineNumber=1051 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@47" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="829.218333333333,796.984999999997,227.79,25.24" Label="widget_on_paint_children_default" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget_vtable.c StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@48" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1374.265,740.057499999998,157.696666666667,25.24" Label="widget_on_paint_end" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1103 StartCharacterOffset=0 EndLineNumber=1103 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@49" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1997.34666666667,740.057499999997,155.533333333333,25.24" Label="widget_on_paint_self" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1030 StartCharacterOffset=0 EndLineNumber=1030 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1350.975,512.347499999998,120.276666666667,25.24" Label="timer_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/timer.c StartLineNumber=311 StartCharacterOffset=0 EndLineNumber=311 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@50" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="904.096666666667,626.202499999998,110.033333333333,25.24" Label="widget_paint" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=816 StartCharacterOffset=0 EndLineNumber=816 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@51" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1576.76,683.129999999997,140.706666666667,25.24" Label="widget_paint_impl" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=793 StartCharacterOffset=0 EndLineNumber=793 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@52" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="323.13,796.984999999997,243.966666666667,25.24" Label="window_manager_on_paint_children" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=548 StartCharacterOffset=0 EndLineNumber=548 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@53" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1148.15,512.347499999998,171.926666666667,25.24" Label="window_manager_paint" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=478 StartCharacterOffset=0 EndLineNumber=478 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@54" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1256.56833333333,626.202499999998,235.09,25.24" Label="window_manager_paint_animation" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=434 StartCharacterOffset=0 EndLineNumber=434 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@55" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1125.12166666667,569.274999999998,217.983333333333,25.24" Label="window_manager_paint_normal" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=387 StartCharacterOffset=0 EndLineNumber=387 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@57" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="85.4033333333336,910.839999999997,129.42,25.24" Label="awtk_demo_sale" SourceLocation="(Assembly=file:///g:/demo/demo/demo_sale/awtk-demo/awtk_demo_sale.c StartLineNumber=126 StartCharacterOffset=0 EndLineNumber=126 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@58" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1135.085,910.839999999997,188.056666666666,25.24" Label="awtk_demo_sale_select_on" SourceLocation="(Assembly=file:///g:/demo/demo/demo_sale/awtk-demo/awtk_demo_sale.c StartLineNumber=68 StartCharacterOffset=0 EndLineNumber=68 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@59" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1163.335,853.912499999997,131.556666666666,25.24" Label="emitter_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/tkc/emitter.c StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="893.271666666667,170.7825,119.683333333333,25.24" Label="tk_init_internal" SourceLocation="(Assembly=file:///g:/demo/awtk/src/awtk_global.c StartLineNumber=117 StartCharacterOffset=0 EndLineNumber=117 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@61" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1325.82,853.912499999997,132.586666666667,25.24" Label="button_on_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/widgets/button.c StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@62" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1389.475,796.984999999997,129.276666666667,25.24" Label="widget_dispatch" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=579 StartCharacterOffset=0 EndLineNumber=579 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@63" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1403.89,910.839999999997,170.446666666667,25.24" Label="window_base_on_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_base.c StartLineNumber=173 StartCharacterOffset=0 EndLineNumber=173 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@64" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="323.2,626.202499999998,263.826666666667,25.24" Label="window_manager_dispatch_input_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=707 StartCharacterOffset=0 EndLineNumber=707 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@65" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="764.481666666667,740.057499999998,163.263333333333,25.24" Label="widget_on_pointer_up" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1287 StartCharacterOffset=0 EndLineNumber=1287 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@66" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="277.033333333334,569.274999999998,266.16,25.24" Label="main_loop_sdl2_dispatch_window_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/main_loop/sdl2_common.inc StartLineNumber=180 StartCharacterOffset=0 EndLineNumber=180 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@67" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="27.2833333333338,1024.695,163.66,25.2399999999998" Label="widget_set_self_layout" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=82 StartCharacterOffset=0 EndLineNumber=82 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@68" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1731.025,1081.6225,136.176666666667,25.24" Label="widget_invalidate" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1475 StartCharacterOffset=0 EndLineNumber=1475 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@69" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1296.735,1024.695,170.756666666667,25.24" Label="widget_invalidate_force" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=1508 StartCharacterOffset=0 EndLineNumber=1508 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1068.23666666667,113.855,71.7533333333331,25.24" Label="tk_run" SourceLocation="(Assembly=file:///g:/demo/awtk/src/awtk_global.c StartLineNumber=179 StartCharacterOffset=0 EndLineNumber=179 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@70" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="574.138333333333,569.274999999998,259.95,25.24" Label="main_loop_sdl2_dispatch_mouse_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/main_loop/sdl2_common.inc StartLineNumber=88 StartCharacterOffset=0 EndLineNumber=88 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@71" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1316.69833333333,967.767499999997,130.83,25.24" Label="widget_set_state" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=302 StartCharacterOffset=0 EndLineNumber=302 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@72" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2408.53,683.129999999997,153.166666666667,25.24" Label="widget_set_text_utf8" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=146 StartCharacterOffset=0 EndLineNumber=146 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@73" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1171.83666666667,683.129999999998,278.553333333333,25.24" Label="window_manager_dispatch_window_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=75 StartCharacterOffset=0 EndLineNumber=75 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@74" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1628.92833333333,1138.55,270.37,25.24" Label="style_const_notify_widget_state_changed" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style_const.c StartLineNumber=78 StartCharacterOffset=0 EndLineNumber=78 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@75" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1466.15,1081.6225,233.926666666667,25.24" Label="style_notify_widget_state_changed" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style.c StartLineNumber=28 StartCharacterOffset=0 EndLineNumber=28 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@76" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1389.65,1480.11499999999,194.926666666667,25.24" Label="self_layouter_default_layout" SourceLocation="(Assembly=file:///g:/demo/awtk/src/layouters/self_layouter_default.c StartLineNumber=333 StartCharacterOffset=0 EndLineNumber=333 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@77" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1412.50833333333,1423.18749999999,149.21,25.24" Label="self_layouter_layout" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/self_layouter.c StartLineNumber=42 StartCharacterOffset=0 EndLineNumber=42 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@78" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1700.80666666667,1537.04249999999,198.613333333333,25.24" Label="widget_layout_self_with_rect" SourceLocation="(Assembly=file:///g:/demo/awtk/src/layouters/self_layouter_default.c StartLineNumber=322 StartCharacterOffset=0 EndLineNumber=322 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@80" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1954.31833333333,910.839999999997,157.59,25.24" Label="style_const_get_color" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style_const.c StartLineNumber=95 StartCharacterOffset=0 EndLineNumber=95 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@81" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1972.54,853.912499999997,121.146666666667,25.24" Label="style_get_color" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style.c StartLineNumber=48 StartCharacterOffset=0 EndLineNumber=48 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@83" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2142.31666666667,910.839999999997,143.593333333333,25.24" Label="style_const_get_int" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style_const.c StartLineNumber=94 StartCharacterOffset=0 EndLineNumber=94 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@84" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2124.53833333333,853.912499999997,107.15,25.24" Label="style_get_int" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/style.c StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@85" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="322.706666666667,683.129999999998,240.813333333333,25.24" Label="input_device_status_on_input_event" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/input_device_status.c StartLineNumber=133 StartCharacterOffset=0 EndLineNumber=133 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@86" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="827.585,455.419999999999,235.056666666667,25.24" Label="window_manager_create_animator" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=121 StartCharacterOffset=0 EndLineNumber=121 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@87" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1119.91833333333,1024.695,146.39,25.24" Label="window_open_impl" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/window_open.c StartLineNumber=28 StartCharacterOffset=0 EndLineNumber=28 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@88" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="22.8583333333336,1309.3325,172.51,25.24" Label="self_layouter_set_param" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/self_layouter.c StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@89" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="2419.89666666667,740.057499999997,130.433333333333,25.24" Label="widget_set_prop" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/widget.c StartLineNumber=887 StartCharacterOffset=0 EndLineNumber=887 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="814.165,227.71,177.896666666667,25.24" Label="window_manager_create" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/window_manager.c StartLineNumber=501 StartCharacterOffset=0 EndLineNumber=501 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@90" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1431.01333333333,1252.405,236.2,25.24" Label="ui_builder_default_on_widget_prop" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/ui_builder_default.c StartLineNumber=61 StartCharacterOffset=0 EndLineNumber=61 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@91" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1376.87166666667,1195.4775,190.483333333334,25.24" Label="ui_builder_on_widget_prop" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/ui_builder.c StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@92" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="12.8650000000002,1252.405,192.496666666667,25.24" Label="self_layouter_set_param_str" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/self_layouter.c StartLineNumber=71 StartCharacterOffset=0 EndLineNumber=71 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@93" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="3.15999999999985,1195.4775,211.906666666667,25.24" Label="self_layouter_parser_on_param" SourceLocation="(Assembly=file:///g:/demo/awtk/src/layouters/self_layouter_factory.c StartLineNumber=48 StartCharacterOffset=0 EndLineNumber=48 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@94" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1133.61,1081.6225,119.006666666667,25.24" Label="ui_loader_load" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/ui_loader.c StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@95" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1193.75166666667,1138.55,164.723333333333,25.24" Label="ui_loader_load_default" SourceLocation="(Assembly=file:///g:/demo/awtk/src/ui_loader/ui_loader_default.c StartLineNumber=49 StartCharacterOffset=0 EndLineNumber=49 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@96" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="827.446666666667,512.347499999998,235.333333333333,25.24" Label="window_animator_create_for_open" SourceLocation="(Assembly=file:///g:/demo/awtk/src/window_animators/common.inc StartLineNumber=94 StartCharacterOffset=0 EndLineNumber=94 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@97" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="1060.24333333333,56.9274999999998,87.7399999999998,25.24" Label="WinMain" SourceLocation="(Assembly=file:///g:/demo/demo/demo_sale/awtk-demo/awtk_demo_main.c StartLineNumber=83 StartCharacterOffset=0 EndLineNumber=83 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@98" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="966.796666666667,113.855,70.6333333333334,25.24" Label="tk_init" SourceLocation="(Assembly=file:///g:/demo/awtk/src/awtk_global.c StartLineNumber=126 StartCharacterOffset=0 EndLineNumber=126 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@99" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="3.4383333333335,967.767499999997,211.35,25.24" Label="widget_set_self_layout_params" SourceLocation="(Assembly=file:///g:/demo/awtk/src/base/layout.c StartLineNumber=103 StartCharacterOffset=0 EndLineNumber=103 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="1070.11333333333,0,68,25.24" Label="外部代码">
+      <Category Ref="CallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@31" Category="CallStackDirectCall" Bounds="1307.11328125,1277.64501953125,0,22.6875" />
+    <Link Source="@100" Target="@62" Category="CallStackDirectCall" Bounds="1527.66735839844,820.086669921875,402.3310546875,773.88330078125" />
+    <Link Source="@101" Target="@50" Category="CallStackDirectCall" Bounds="959.113342285156,594.515014648438,0,22.6875" />
+    <Link Source="@102" Target="@69" Category="CallStackDirectCall" Bounds="246.113327026367,357.731506347656,1067.27803039551,665.566467285156" />
+    <Link Source="@11" Target="@10" Category="CallStackDirectCall" Bounds="1282.98559570313,1220.71752929688,12.9512939453125,23.783447265625" />
+    <Link Source="@12" Target="@13" Category="CallStackDirectCall" Bounds="945.113342285156,366.804992675781,0,22.6875" />
+    <Link Source="@13" Target="@73" Category="CallStackDirectCall" Bounds="1011.17559814453,423.732513427734,194.802673339844,258.226959228516" />
+    <Link Source="@13" Target="@86" Category="CallStackDirectCall" Bounds="945.113342285156,423.732513427734,0,22.6875" />
+    <Link Source="@15" Target="@16" Category="CallStackDirectCall" Bounds="1104.11328125,196.022506713867,0,22.6875" />
+    <Link Source="@16" Target="@17" Category="CallStackDirectCall" Bounds="1146.67700195313,252.949996948242,81.361083984375,28.1046600341797" />
+    <Link Source="@16" Target="@19" Category="CallStackDirectCall" Bounds="716.050476074219,252.949996948242,315.692077636719,194.703475952148" />
+    <Link Source="@16" Target="@4" Category="CallStackDirectCall" Bounds="1068.27819824219,252.949996948242,23.8641357421875,25.1578521728516" />
+    <Link Source="@16" Target="@5" Category="CallStackDirectCall" Bounds="1132.48901367188,252.949996948242,243.539794921875,255.578994750977" />
+    <Link Source="@16" Target="@53" Category="CallStackDirectCall" Bounds="1118.30114746094,252.949996948242,107.768676757813,250.991592407227" />
+    <Link Source="@17" Target="@18" Category="CallStackDirectCall" Bounds="1270.21215820313,309.877502441406,9.4310302734375,23.3428344726563" />
+    <Link Source="@18" Target="(Name=sleep_ms @1 Type=void OverloadingParameters=[(@21 Name=ms)] @3)" Category="CallStackDirectCall" Bounds="1288.11328125,366.804992675781,0,22.6875" />
+    <Link Source="@19" Target="@20" Category="CallStackDirectCall" Bounds="704.113342285156,480.660003662109,0,22.6875" />
+    <Link Source="@20" Target="@66" Category="CallStackDirectCall" Bounds="484.124755859375,537.587524414063,154.813049316406,29.9765625" />
+    <Link Source="@20" Target="@70" Category="CallStackDirectCall" Bounds="704.113342285156,537.587524414063,0,22.6875" />
+    <Link Source="@24" Target="@87" Category="CallStackDirectCall" Bounds="1108.27709960938,993.007507324219,52.6949462890625,27.5210571289063" />
+    <Link Source="@25" Target="@26" Category="CallStackDirectCall" Bounds="109.113334655762,1106.86254882813,0,22.6875" />
+    <Link Source="@26" Target="@93" Category="CallStackDirectCall" Bounds="109.113334655762,1163.7900390625,0,22.6875" />
+    <Link Source="@27" Target="@72" Category="CallStackDirectCall" Bounds="2485.11328125,651.442504882813,0,22.6875" />
+    <Link Source="@28" Target="(Name=demo_qr_timer_cb @1 @2 OverloadingParameters=[(Type=&quot;const _timer_info_t *&quot; Name=timer)] @3)" Category="CallStackDirectCall" Bounds="2313.11328125,594.515014648438,0,22.6875" />
+    <Link Source="@28" Target="@27" Category="CallStackDirectCall" Bounds="2351.2431640625,594.515014648438,87.196044921875,28.8595581054688" />
+    <Link Source="@31" Target="@32" Category="CallStackDirectCall" Bounds="1225.67297363281,1334.57250976563,55.946533203125,27.6947021484375" />
+    <Link Source="@31" Target="@34" Category="CallStackDirectCall" Bounds="1329.72521972656,1334.57250976563,48.9173583984375,27.3013916015625" />
+    <Link Source="@32" Target="@33" Category="CallStackDirectCall" Bounds="1210.51318359375,1391.5,38.7781982421875,26.596923828125" />
+    <Link Source="@33" Target="@31" Category="CallStackDirectCall" Bounds="1289.30114746094,1343.57250976563,17.8121337890625,79.614990234375" />
+    <Link Source="@34" Target="@77" Category="CallStackDirectCall" Bounds="1426.40478515625,1391.5,36.1473388671875,26.3817138671875" />
+    <Link Source="@35" Target="@75" Category="CallStackDirectCall" Bounds="1583.11328125,1049.93505859375,0,22.6875" />
+    <Link Source="@36" Target="@35" Category="CallStackDirectCall" Bounds="1583.11328125,993.007507324219,0,22.6875" />
+    <Link Source="@37" Target="(Name=window_manager_get_top_main_window @1 @8 @30 @3)" Category="CallStackDirectCall" Bounds="1167.07470703125,765.297485351563,33.0174560546875,26.1055297851563" />
+    <Link Source="@37" Target="@62" Category="CallStackDirectCall" Bounds="1218.28405761719,765.297485351563,163.441650390625,30.7073364257813" />
+    <Link Source="@38" Target="(Name=theme_find_style @1 Type=&quot;const unsigned char *&quot; OverloadingParameters=[(Type=&quot;_theme_t *&quot; Name=t),(@22 Name=widget_type),@23,(Type=_widget_state_t Name=widget_state)] @3)" Category="CallStackDirectCall" Bounds="1764.11328125,1220.71752929688,0,22.6875" />
+    <Link Source="@39" Target="@102" Category="CallStackDirectCall" Bounds="643.113342285156,309.877502441406,0,22.6875" />
+    <Link Source="@4" Target="@12" Category="CallStackDirectCall" Bounds="976.302307128906,309.877502441406,50.5339965820313,27.3978881835938" />
+    <Link Source="@41" Target="@81" Category="CallStackDirectCall" Bounds="2047.76733398438,822.224975585938,18.03515625,24.4452514648438" />
+    <Link Source="@41" Target="@84" Category="CallStackDirectCall" Bounds="2097.94702148438,822.224975585938,49.455810546875,27.333984375" />
+    <Link Source="@42" Target="@50" Category="CallStackDirectCall" Bounds="489.716247558594,652.041748046875,406.139953613281,144.943237304688" />
+    <Link Source="@43" Target="(Name=qr_on_paint_background @1 @2 @40 @3)" Category="CallStackDirectCall" Bounds="1870.09887695313,765.297485351563,11.172119140625,23.5557861328125" />
+    <Link Source="@43" Target="(Name=widget_draw_background @1 @2 @40 @3)" Category="CallStackDirectCall" Bounds="1729.50134277344,765.297485351563,93.8218994140625,29.0274047851563" />
+    <Link Source="@44" Target="@62" Category="CallStackDirectCall" Bounds="1505.53100585938,765.297485351563,98.7969970703125,29.1412963867188" />
+    <Link Source="@45" Target="(Name=qr_on_paint_border @1 @2 @40 @3)" Category="CallStackDirectCall" Bounds="2253.95556640625,765.297485351563,11.17236328125,23.5557861328125" />
+    <Link Source="@46" Target="@42" Category="CallStackDirectCall" Bounds="621.060180664063,765.297485351563,47.30419921875,27.2011108398438" />
+    <Link Source="@46" Target="@47" Category="CallStackDirectCall" Bounds="675.373107910156,765.297485351563,182.601196289063,30.2181396484375" />
+    <Link Source="@46" Target="@52" Category="CallStackDirectCall" Bounds="466.391540527344,765.297485351563,78.6305541992188,26.144287109375" />
+    <Link Source="@47" Target="@50" Category="CallStackDirectCall" Bounds="950.207275390625,660.442504882813,8.90606689453125,136.54248046875" />
+    <Link Source="@48" Target="@62" Category="CallStackDirectCall" Bounds="1453.55676269531,765.297485351563,0.5228271484375,22.6875610351563" />
+    <Link Source="@49" Target="@41" Category="CallStackDirectCall" Bounds="2075.11328125,765.297485351563,0,22.6875" />
+    <Link Source="@5" Target="@28" Category="CallStackDirectCall" Bounds="1471.25170898438,528.763000488281,744.564453125,46.9913330078125" />
+    <Link Source="@50" Target="@51" Category="CallStackDirectCall" Bounds="1014.13000488281,644.595642089844,553.656860351563,45.0178833007813" />
+    <Link Source="@51" Target="@43" Category="CallStackDirectCall" Bounds="1695.21911621094,708.369995117188,112.0830078125,29.4037475585938" />
+    <Link Source="@51" Target="@44" Category="CallStackDirectCall" Bounds="1647.11328125,708.369995117188,0,22.6875" />
+    <Link Source="@51" Target="@45" Category="CallStackDirectCall" Bounds="1717.46667480469,701.370544433594,458.088256835938,38.708984375" />
+    <Link Source="@51" Target="@46" Category="CallStackDirectCall" Bounds="699.116271972656,702.735961914063,877.643737792969,41.2633056640625" />
+    <Link Source="@51" Target="@48" Category="CallStackDirectCall" Bounds="1504.75622558594,708.369995117188,99.35009765625,29.1533813476563" />
+    <Link Source="@51" Target="@49" Category="CallStackDirectCall" Bounds="1717.46667480469,705.107543945313,271.044311523438,36.0511474609375" />
+    <Link Source="@52" Target="@50" Category="CallStackDirectCall" Bounds="445.113342285156,651.437255859375,450.425109863281,145.547729492188" />
+    <Link Source="@53" Target="@54" Category="CallStackDirectCall" Bounds="1296.18530273438,537.587524414063,77.927978515625,79.614990234375" />
+    <Link Source="@53" Target="@55" Category="CallStackDirectCall" Bounds="1234.11328125,537.587524414063,0,22.6875" />
+    <Link Source="@54" Target="@69" Category="CallStackDirectCall" Bounds="1458.20397949219,642.158264160156,925.766479492188,381.358459472656" />
+    <Link Source="@54" Target="@73" Category="CallStackDirectCall" Bounds="1331.75720214844,651.442504882813,28.389892578125,25.6535034179688" />
+    <Link Source="@55" Target="@50" Category="CallStackDirectCall" Bounds="1023.00207519531,594.515014648438,163.227172851563,33.418212890625" />
+    <Link Source="@57" Target="@99" Category="CallStackDirectCall" Bounds="123.462211608887,936.080017089844,17.5620193481445,24.3843994140625" />
+    <Link Source="@58" Target="(Name=qr_set_pixsize @1 @2 OverloadingParameters=[@29,(Type=&quot;unsigned char&quot; Name=pixsize)] @3)" Category="CallStackDirectCall" Bounds="1229.11328125,936.080017089844,0,22.6875" />
+    <Link Source="@58" Target="@24" Category="CallStackDirectCall" Bounds="1124.63525390625,936.080017089844,72.333740234375,28.3984375" />
+    <Link Source="@58" Target="@71" Category="CallStackDirectCall" Bounds="1263.03125,936.080017089844,76.7291259765625,28.5490112304688" />
+    <Link Source="@59" Target="@57" Category="CallStackDirectCall" Bounds="215.652816772461,868.501281738281,947.682144165039,40.3967895507813" />
+    <Link Source="@59" Target="@58" Category="CallStackDirectCall" Bounds="1229.11328125,879.152526855469,0,22.6875" />
+    <Link Source="@6" Target="@9" Category="CallStackDirectCall" Bounds="920.136840820313,196.022506713867,21.8922119140625,24.9254150390625" />
+    <Link Source="@61" Target="@62" Category="CallStackDirectCall" Bounds="1382.75158691406,825.353210449219,28.3399658203125,28.5592651367188" />
+    <Link Source="@62" Target="(Name=qr_on_event @1 @2 @60 @3)" Category="CallStackDirectCall" Bounds="1518.33447265625,820.751159667969,201.998046875,35.0587158203125" />
+    <Link Source="@62" Target="(Name=widget_on_event_default @1 @2 @60 @3)" Category="CallStackDirectCall" Bounds="1488.474609375,822.224975585938,77.8292236328125,28.584716796875" />
+    <Link Source="@62" Target="@59" Category="CallStackDirectCall" Bounds="1287.49365234375,822.224975585938,116.518798828125,29.4707641601563" />
+    <Link Source="@62" Target="@61" Category="CallStackDirectCall" Bounds="1427.74865722656,822.224975585938,26.3646240234375,27.8615112304688" />
+    <Link Source="@62" Target="@63" Category="CallStackDirectCall" Bounds="1469.63134765625,822.224975585938,19.48193359375,79.6150512695313" />
+    <Link Source="@63" Target="@36" Category="CallStackDirectCall" Bounds="1509.95178222656,936.080017089844,44.624755859375,27.0252685546875" />
+    <Link Source="@64" Target="@85" Category="CallStackDirectCall" Bounds="447.629913330078,651.442504882813,4.82318115234375,22.8810424804688" />
+    <Link Source="@65" Target="@62" Category="CallStackDirectCall" Bounds="927.690124511719,762.868713378906,453.766052246094,33.80078125" />
+    <Link Source="@65" Target="@65" Category="CallStackDirectCall" Bounds="720.981689453125,746.541748046875,43.5,12.0277099609375" />
+    <Link Source="@66" Target="@69" Category="CallStackDirectCall" Bounds="299.922180175781,594.515014648438,1013.04730224609,428.710388183594" />
+    <Link Source="@67" Target="@25" Category="CallStackDirectCall" Bounds="109.113334655762,1049.93505859375,0,22.6875" />
+    <Link Source="@69" Target="@68" Category="CallStackDirectCall" Bounds="1467.17810058594,1048.27026367188,255.1953125,33.83642578125" />
+    <Link Source="@7" Target="@15" Category="CallStackDirectCall" Bounds="1104.11328125,139.095001220703,0,22.6875" />
+    <Link Source="@70" Target="@64" Category="CallStackDirectCall" Bounds="519.086669921875,594.515014648438,129.826965332031,29.681640625" />
+    <Link Source="@71" Target="@35" Category="CallStackDirectCall" Bounds="1426.67211914063,993.007507324219,103.223022460938,29.2349853515625" />
+    <Link Source="@71" Target="@69" Category="CallStackDirectCall" Bounds="1382.11328125,993.007507324219,0,22.6875" />
+    <Link Source="@72" Target="@89" Category="CallStackDirectCall" Bounds="2485.11328125,708.369995117188,0,22.6875" />
+    <Link Source="@73" Target="@37" Category="CallStackDirectCall" Bounds="1195.06225585938,708.369995117188,80.5814208984375,28.6705932617188" />
+    <Link Source="@73" Target="@62" Category="CallStackDirectCall" Bounds="1325.30114746094,708.369995117188,70.8834228515625,86.3663940429688" />
+    <Link Source="@74" Target="@38" Category="CallStackDirectCall" Bounds="1764.11328125,1163.7900390625,0,22.6875" />
+    <Link Source="@75" Target="@74" Category="CallStackDirectCall" Bounds="1583.11328125,1106.86254882813,91.859130859375,30.289306640625" />
+    <Link Source="@76" Target="@78" Category="CallStackDirectCall" Bounds="1556.50085449219,1505.35498046875,165.370239257813,30.0770263671875" />
+    <Link Source="@77" Target="@76" Category="CallStackDirectCall" Bounds="1487.11328125,1448.42749023438,0,22.6875" />
+    <Link Source="@78" Target="@100" Category="CallStackDirectCall" Bounds="1828.93249511719,1562.28247070313,64.1175537109375,28.077392578125" />
+    <Link Source="@80" Target="(Name=style_data_get_color @1 @79 OverloadingParameters=[(Type=&quot;const unsigned char *&quot; Name=s),(@21 Name=name),(@79 Name=defval)] @3)" Category="CallStackDirectCall" Bounds="2033.11328125,936.080017089844,0,22.6875" />
+    <Link Source="@81" Target="@80" Category="CallStackDirectCall" Bounds="2033.11328125,879.152526855469,0,22.6875" />
+    <Link Source="@83" Target="(Name=style_data_get_int @1 @21 OverloadingParameters=[(Type=&quot;const unsigned char *&quot; Name=s),(@21 Name=name),(@21 Name=defval)] @3)" Category="CallStackDirectCall" Bounds="2214.11328125,936.080017089844,0,22.6875" />
+    <Link Source="@84" Target="@83" Category="CallStackDirectCall" Bounds="2186.09399414063,879.152526855469,15.228271484375,24.080810546875" />
+    <Link Source="@85" Target="@65" Category="CallStackDirectCall" Bounds="532.452575683594,708.369995117188,223.735717773438,31.604736328125" />
+    <Link Source="@86" Target="@96" Category="CallStackDirectCall" Bounds="945.113342285156,480.660003662109,0,22.6875" />
+    <Link Source="@87" Target="@94" Category="CallStackDirectCall" Bounds="1193.11328125,1049.93505859375,0,22.6875" />
+    <Link Source="@88" Target="(Name=self_layouter_default_set_param @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" Category="CallStackDirectCall" Bounds="109.113334655762,1334.57250976563,0,22.6875" />
+    <Link Source="@89" Target="(Name=qr_set_prop @1 @2 OverloadingParameters=[@29,@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" Category="CallStackDirectCall" Bounds="2471.88354492188,765.297485351563,8.574462890625,23.2437133789063" />
+    <Link Source="@89" Target="@62" Category="CallStackDirectCall" Bounds="1527.56640625,763.924743652344,892.809814453125,34.0221557617188" />
+    <Link Source="@89" Target="@68" Category="CallStackDirectCall" Bounds="1875.94787597656,765.297485351563,661.181274414063,317.015869140625" />
+    <Link Source="@9" Target="@39" Category="CallStackDirectCall" Bounds="686.620910644531,252.949996948242,136.242309570313,28.6761322021484" />
+    <Link Source="@90" Target="@89" Category="CallStackDirectCall" Bounds="1554.9658203125,767.750427246094,875.377685546875,484.654602050781" />
+    <Link Source="@91" Target="@90" Category="CallStackDirectCall" Bounds="1489.18310546875,1220.71752929688,35.62353515625,26.3370361328125" />
+    <Link Source="@92" Target="@88" Category="CallStackDirectCall" Bounds="109.113334655762,1277.64501953125,0,22.6875" />
+    <Link Source="@93" Target="@92" Category="CallStackDirectCall" Bounds="109.113334655762,1220.71752929688,0,22.6875" />
+    <Link Source="@94" Target="@95" Category="CallStackDirectCall" Bounds="1211.51318359375,1106.86254882813,38.7781982421875,26.596923828125" />
+    <Link Source="@95" Target="@11" Category="CallStackDirectCall" Bounds="1276.11328125,1163.7900390625,0,22.6875" />
+    <Link Source="@95" Target="@91" Category="CallStackDirectCall" Bounds="1319.56372070313,1163.7900390625,100.456420898438,29.1771240234375" />
+    <Link Source="@96" Target="@101" Category="CallStackDirectCall" Bounds="948.216918945313,537.587524414063,5.64349365234375,22.9478759765625" />
+    <Link Source="@97" Target="@7" Category="CallStackDirectCall" Bounds="1104.11328125,82.1675033569336,0,22.6875" />
+    <Link Source="@97" Target="@98" Category="CallStackDirectCall" Bounds="1032.58410644531,82.1675033569336,48.9173583984375,27.3013610839844" />
+    <Link Source="@98" Target="@6" Category="CallStackDirectCall" Bounds="969.84716796875,139.095001220703,21.403564453125,24.8663482666016" />
+    <Link Source="@99" Target="@67" Category="CallStackDirectCall" Bounds="109.113334655762,993.007507324219,0,22.6875" />
+    <Link Source="ExternalCodeRootNode" Target="@97" Category="CallStackIndirectCall" Bounds="1104.11328125,25.2399997711182,0,22.6875019073486" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="调用堆栈直接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈直接调用" OutgoingActionLabel="调用堆栈直接调用" />
+    <Category Id="CallStackEntry" Label="调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="调用堆栈入口" />
+    <Category Id="CallStackIndirectCall" Label="调用堆栈间接调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用堆栈间接调用" OutgoingActionLabel="调用堆栈间接调用" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="未解析的方法" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="未解析的方法" />
+    <Category Id="CodeSchema_SourceLocation" Label="源位置" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="外部调用堆栈入口" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部调用堆栈入口" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="是无法解析的" ValueType="System.String" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=demo_ui.exe" />
+    <Alias n="2" Id="Type=_ret_t" />
+    <Alias n="3" Id="IsUnresolved=True" />
+    <Alias n="4" Id="(Name=idle_dispatch @1 @2 @3)" />
+    <Alias n="5" Id="(Name=timer_dispatch @1 @2 @3)" />
+    <Alias n="6" Id="(Name=tk_init_internal @1 @2 @3)" />
+    <Alias n="7" Id="(Name=tk_run @1 @2 @3)" />
+    <Alias n="8" Id="Type=&quot;_widget_t *&quot;" />
+    <Alias n="9" Id="(Name=window_manager_create @1 @8 @3)" />
+    <Alias n="10" Id="(Name=ui_builder_default_on_end @1 @2 OverloadingParameters=[(Type=&quot;_ui_builder_t *&quot; Name=b)] @3)" />
+    <Alias n="11" Id="(Name=ui_builder_on_end @1 @2 OverloadingParameters=[(Type=&quot;_ui_builder_t *&quot; Name=b)] @3)" />
+    <Alias n="12" Id="(Name=idle_manager_dispatch @1 @2 OverloadingParameters=[(Type=&quot;_idle_manager_t *&quot; Name=idle_manager)] @3)" />
+    <Alias n="13" Id="(Name=window_manager_check_if_need_open_animation @1 @2 OverloadingParameters=[(Type=&quot;const _idle_info_t *&quot; Name=info)] @3)" />
+    <Alias n="14" Id="OverloadingParameters=[(Type=&quot;_main_loop_t *&quot; Name=l)]" />
+    <Alias n="15" Id="(Name=main_loop_run @1 @2 @14 @3)" />
+    <Alias n="16" Id="(Name=main_loop_simple_run @1 @2 @14 @3)" />
+    <Alias n="17" Id="(Name=main_loop_sleep @1 @2 @14 @3)" />
+    <Alias n="18" Id="(Name=main_loop_sleep_default @1 @2 @14 @3)" />
+    <Alias n="19" Id="(Name=main_loop_dispatch_input @1 @2 OverloadingParameters=[(Type=&quot;_main_loop_simple_t *&quot; Name=loop)] @3)" />
+    <Alias n="20" Id="(Name=main_loop_sdl2_dispatch @1 @2 OverloadingParameters=[(Type=&quot;_main_loop_simple_t *&quot; Name=loop)] @3)" />
+    <Alias n="21" Id="Type=&quot;unsigned int&quot;" />
+    <Alias n="22" Id="Type=&quot;const char *&quot;" />
+    <Alias n="23" Id="(@22 Name=name)" />
+    <Alias n="24" Id="(Name=window_open @1 @8 OverloadingParameters=[@23] @3)" />
+    <Alias n="25" Id="(Name=self_layouter_create @1 Type=&quot;_self_layouter_t *&quot; OverloadingParameters=[(@22 Name=params)] @3)" />
+    <Alias n="26" Id="(Name=func_call_parser_parse @1 @2 OverloadingParameters=[(Type=&quot;_func_call_parser_t *&quot; Name=parser)] @3)" />
+    <Alias n="27" Id="(Name=awtk_get_currtime @1 @2 OverloadingParameters=[(Type=&quot;_timer_info_t *&quot; Name=timer)] @3)" />
+    <Alias n="28" Id="(Name=timer_manager_dispatch @1 @2 OverloadingParameters=[(Type=&quot;_timer_manager_t *&quot; Name=timer_manager)] @3)" />
+    <Alias n="29" Id="(@8 Name=widget)" />
+    <Alias n="30" Id="OverloadingParameters=[@29]" />
+    <Alias n="31" Id="(Name=widget_layout @1 @2 @30 @3)" />
+    <Alias n="32" Id="(Name=widget_layout_children @1 @2 @30 @3)" />
+    <Alias n="33" Id="(Name=widget_layout_children_default @1 @2 @30 @3)" />
+    <Alias n="34" Id="(Name=widget_layout_self @1 @2 @30 @3)" />
+    <Alias n="35" Id="(Name=widget_update_style @1 @2 @30 @3)" />
+    <Alias n="36" Id="(Name=widget_update_style_recursive @1 @2 @30 @3)" />
+    <Alias n="37" Id="(Name=window_manager_dispatch_top_window_changed @1 @2 @30 @3)" />
+    <Alias n="38" Id="(Name=widget_get_const_style_data @1 Type=&quot;const void *&quot; @30 @3)" />
+    <Alias n="39" Id="(Name=window_manager_init @1 @8 OverloadingParameters=[(Type=&quot;_window_manager_t *&quot; Name=wm)] @3)" />
+    <Alias n="40" Id="OverloadingParameters=[@29,(Type=&quot;_canvas_t *&quot; Name=c)]" />
+    <Alias n="41" Id="(Name=qr_on_paint_self @1 @2 @40 @3)" />
+    <Alias n="42" Id="(Name=slide_view_on_paint_children @1 @2 @40 @3)" />
+    <Alias n="43" Id="(Name=widget_on_paint_background @1 @2 @40 @3)" />
+    <Alias n="44" Id="(Name=widget_on_paint_begin @1 @2 @40 @3)" />
+    <Alias n="45" Id="(Name=widget_on_paint_border @1 @2 @40 @3)" />
+    <Alias n="46" Id="(Name=widget_on_paint_children @1 @2 @40 @3)" />
+    <Alias n="47" Id="(Name=widget_on_paint_children_default @1 @2 @40 @3)" />
+    <Alias n="48" Id="(Name=widget_on_paint_end @1 @2 @40 @3)" />
+    <Alias n="49" Id="(Name=widget_on_paint_self @1 @2 @40 @3)" />
+    <Alias n="50" Id="(Name=widget_paint @1 @2 @40 @3)" />
+    <Alias n="51" Id="(Name=widget_paint_impl @1 @2 @40 @3)" />
+    <Alias n="52" Id="(Name=window_manager_on_paint_children @1 @2 @40 @3)" />
+    <Alias n="53" Id="(Name=window_manager_paint @1 @2 @40 @3)" />
+    <Alias n="54" Id="(Name=window_manager_paint_animation @1 @2 @40 @3)" />
+    <Alias n="55" Id="(Name=window_manager_paint_normal @1 @2 @40 @3)" />
+    <Alias n="56" Id="(Type=&quot;_event_t *&quot; Name=e)" />
+    <Alias n="57" Id="(Name=awtk_demo_sale @1 @2 OverloadingParameters=[(Type=&quot;void *&quot; Name=ctx),@56] @3)" />
+    <Alias n="58" Id="(Name=awtk_demo_sale_select_on @1 @2 OverloadingParameters=[(Type=&quot;void *&quot; Name=ctx),@56] @3)" />
+    <Alias n="59" Id="(Name=emitter_dispatch @1 @2 OverloadingParameters=[(Type=&quot;_emitter_t *&quot; Name=emitter),@56] @3)" />
+    <Alias n="60" Id="OverloadingParameters=[@29,@56]" />
+    <Alias n="61" Id="(Name=button_on_event @1 @2 @60 @3)" />
+    <Alias n="62" Id="(Name=widget_dispatch @1 @2 @60 @3)" />
+    <Alias n="63" Id="(Name=window_base_on_event @1 @2 @60 @3)" />
+    <Alias n="64" Id="(Name=window_manager_dispatch_input_event @1 @2 @60 @3)" />
+    <Alias n="65" Id="(Name=widget_on_pointer_up @1 @2 OverloadingParameters=[@29,(Type=&quot;_pointer_event_t *&quot; Name=e)] @3)" />
+    <Alias n="66" Id="(Name=main_loop_sdl2_dispatch_window_event @1 @2 OverloadingParameters=[(Type=&quot;_main_loop_simple_t *&quot; Name=loop),(Type=&quot;SDL_Event *&quot; Name=event)] @3)" />
+    <Alias n="67" Id="(Name=widget_set_self_layout @1 @2 OverloadingParameters=[@29,(@22 Name=params)] @3)" />
+    <Alias n="68" Id="(Name=widget_invalidate @1 @2 OverloadingParameters=[@29,(Type=&quot;_rect_t *&quot; Name=r)] @3)" />
+    <Alias n="69" Id="(Name=widget_invalidate_force @1 @2 OverloadingParameters=[@29,(Type=&quot;_rect_t *&quot; Name=r)] @3)" />
+    <Alias n="70" Id="(Name=main_loop_sdl2_dispatch_mouse_event @1 @2 OverloadingParameters=[(Type=&quot;_main_loop_simple_t *&quot; Name=loop),(Type=&quot;SDL_Event *&quot; Name=sdl_event)] @3)" />
+    <Alias n="71" Id="(Name=widget_set_state @1 @2 OverloadingParameters=[@29,(Type=_widget_state_t Name=state)] @3)" />
+    <Alias n="72" Id="(Name=widget_set_text_utf8 @1 @2 OverloadingParameters=[@29,(@22 Name=text)] @3)" />
+    <Alias n="73" Id="(Name=window_manager_dispatch_window_event @1 @2 OverloadingParameters=[(@8 Name=window),(Type=_event_type_t Name=type)] @3)" />
+    <Alias n="74" Id="(Name=style_const_notify_widget_state_changed @1 @2 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),@29] @3)" />
+    <Alias n="75" Id="(Name=style_notify_widget_state_changed @1 @2 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),@29] @3)" />
+    <Alias n="76" Id="(Name=self_layouter_default_layout @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@29,(Type=&quot;_rect_t *&quot; Name=area)] @3)" />
+    <Alias n="77" Id="(Name=self_layouter_layout @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@29,(Type=&quot;_rect_t *&quot; Name=area)] @3)" />
+    <Alias n="78" Id="(Name=widget_layout_self_with_rect @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@29,(Type=&quot;_rect_t *&quot; Name=area)] @3)" />
+    <Alias n="79" Id="Type=_color_t" />
+    <Alias n="80" Id="(Name=style_const_get_color @1 @79 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),(Type=_style_id_t Name=id),(@79 Name=defval)] @3)" />
+    <Alias n="81" Id="(Name=style_get_color @1 @79 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),(Type=_style_id_t Name=id),(@79 Name=defval)] @3)" />
+    <Alias n="82" Id="Type=int" />
+    <Alias n="83" Id="(Name=style_const_get_int @1 @82 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),(Type=_style_id_t Name=id),(@82 Name=defval)] @3)" />
+    <Alias n="84" Id="(Name=style_get_int @1 @82 OverloadingParameters=[(Type=&quot;_style_t *&quot; Name=s),(Type=_style_id_t Name=id),(@82 Name=defval)] @3)" />
+    <Alias n="85" Id="(Name=input_device_status_on_input_event @1 @2 OverloadingParameters=[(Type=&quot;_input_device_status_t *&quot; Name=ids),@29,@56] @3)" />
+    <Alias n="86" Id="(Name=window_manager_create_animator @1 @2 OverloadingParameters=[(Type=&quot;_window_manager_t *&quot; Name=wm),(@8 Name=curr_win),(Type=&quot;unsigned char&quot; Name=open)] @3)" />
+    <Alias n="87" Id="(Name=window_open_impl @1 @8 OverloadingParameters=[@23,(Type=_asset_type_t Name=res_type),(@8 Name=to_close)] @3)" />
+    <Alias n="88" Id="(Name=self_layouter_set_param @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" />
+    <Alias n="89" Id="(Name=widget_set_prop @1 @2 OverloadingParameters=[@29,@23,(Type=&quot;const _value_t *&quot; Name=v)] @3)" />
+    <Alias n="90" Id="(Name=ui_builder_default_on_widget_prop @1 @2 OverloadingParameters=[(Type=&quot;_ui_builder_t *&quot; Name=b),@23,(@22 Name=value)] @3)" />
+    <Alias n="91" Id="(Name=ui_builder_on_widget_prop @1 @2 OverloadingParameters=[(Type=&quot;_ui_builder_t *&quot; Name=b),@23,(@22 Name=value)] @3)" />
+    <Alias n="92" Id="(Name=self_layouter_set_param_str @1 @2 OverloadingParameters=[(Type=&quot;_self_layouter_t *&quot; Name=layouter),@23,(@22 Name=value)] @3)" />
+    <Alias n="93" Id="(Name=self_layouter_parser_on_param @1 @2 OverloadingParameters=[(Type=&quot;_func_call_parser_t *&quot; Name=parser),@23,(@22 Name=value)] @3)" />
+    <Alias n="94" Id="(Name=ui_loader_load @1 @2 OverloadingParameters=[(Type=&quot;_ui_loader_t *&quot; Name=loader),(Type=&quot;const unsigned char *&quot; Name=data),(@21 Name=size),(Type=&quot;_ui_builder_t *&quot; Name=b)] @3)" />
+    <Alias n="95" Id="(Name=ui_loader_load_default @1 @2 OverloadingParameters=[(Type=&quot;_ui_loader_t *&quot; Name=loader),(Type=&quot;const unsigned char *&quot; Name=data),(@21 Name=size),(Type=&quot;_ui_builder_t *&quot; Name=b)] @3)" />
+    <Alias n="96" Id="(Name=window_animator_create_for_open @1 Type=&quot;_window_animator_t *&quot; OverloadingParameters=[(@22 Name=type),(Type=&quot;_canvas_t *&quot; Name=c),(@8 Name=prev_win),(@8 Name=curr_win)] @3)" />
+    <Alias n="97" Id="(Name=WinMain @1 @82 OverloadingParameters=[(Type=&quot;HINSTANCE__ *&quot; Name=hinstance),(Type=&quot;HINSTANCE__ *&quot; Name=hprevinstance),(Type=&quot;char *&quot; Name=lpcmdline),(@82 Name=ncmdshow)] @3)" />
+    <Alias n="98" Id="(Name=tk_init @1 @2 OverloadingParameters=[(@82 Name=w),(@82 Name=h),(Type=_app_type_t Name=app_type),(@22 Name=app_name),(@22 Name=app_root)] @3)" />
+    <Alias n="99" Id="(Name=widget_set_self_layout_params @1 @2 OverloadingParameters=[@29,(@22 Name=x),(@22 Name=y),(@22 Name=w),(@22 Name=h)] @3)" />
+    <Alias n="100" Id="(Name=widget_move_resize @1 @2 OverloadingParameters=[@29,(@82 Name=x),(@82 Name=y),(@82 Name=w),(@82 Name=h)] @3)" />
+    <Alias n="101" Id="(Name=window_animator_prepare @1 @2 OverloadingParameters=[(Type=&quot;_window_animator_t *&quot; Name=wa),(Type=&quot;_canvas_t *&quot; Name=c),(@8 Name=prev_win),(@8 Name=curr_win),(Type=&quot;unsigned char&quot; Name=open)] @3)" />
+    <Alias n="102" Id="(Name=widget_init @1 @8 OverloadingParameters=[@29,(@8 Name=parent),(Type=&quot;const _widget_vtable_t *&quot; Name=vt),(@82 Name=x),(@82 Name=y),(@82 Name=w),(@82 Name=h)] @3)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(无源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="当前调用堆栈(源)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部调用堆栈" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结果" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="测试项目" ValueLabel="测试项目">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web 项目" ValueLabel="Web 项目">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows 应用商店项目" ValueLabel="Windows 应用商店项目">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="电话项目" ValueLabel="电话项目">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="可移植库" ValueLabel="可移植库">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF 项目" ValueLabel="WPF 项目">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX 项目" ValueLabel="VSIX 项目">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="建模项目" ValueLabel="建模项目">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="程序集" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="命名空间" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="接口" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="结构" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="枚举" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="委托" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="类" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="属性" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="方法" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="事件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="字段" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out 参数" ValueLabel="具有类别">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="参数" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="局部变量" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="继承自" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="实现" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="调用" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="函数指针" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段读取" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="字段写入" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="返回" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="引用" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="使用特性" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="解决方案文件夹" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="项目引用" ValueLabel="项目引用">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="外部引用" ValueLabel="外部引用">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="注释" ValueLabel="包含注释">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>

@@ -528,7 +528,8 @@
 </view>
 
 <qr>
-  <style name="qr_border" >
-    <normal     bg_image="sale_bord" />
+  <style name="qr_border" margin="9" margin_color="#FFF8DC" fg_image="qq">
+    <normal/>
+    <scaned bg_image="check" />
   </style>
 </qr>
