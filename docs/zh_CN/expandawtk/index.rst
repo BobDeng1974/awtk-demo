@@ -1,6 +1,6 @@
-快速开始
-=========
+如何扩展AWTK——以二维码控件为例
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 .. include:: overview.rst
-.. include:: mac.rst
+.. include:: howtowrite1.rst

@@ -19,12 +19,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'AWTK概览'
+project = u'如何扩展AWTK——以二维码控件为例'
 copyright = u'2018, AWTK Development Team'
 author = u'zq'
 
 # The short X.Y version
-version = u'0.0'
+version = u'v0.0'
 # The full version, including alpha/beta/rc tags
 release = u'V0.0.0'
 
